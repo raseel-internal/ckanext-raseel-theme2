@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="container">
+    {% block footer_content %}
+    <div class="row">
+      <div class="col-md-4 attribution">
+        {% block footer_attribution %}
+        <ul class="list-unstyled">
+          <li><a href="{{ h.url_for(controller='home', action='about') }}"  style="text-decoration:none;"><h2>{{ _('About {0}').format(g.site_title) }}</h2></a></li>
+          <li><p>{% trans %}<strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a>{% endtrans %}</p></li>
+        </ul>  
+        {% endblock %}
+      </div>
+
+      <div class="col-md-8 footer-links">
+        <h2>Useful Links</h2>
+        {% block footer_nav %}
+          <ul class="list-unstyled">
+            {% block footer_links %}
+              <li><a href="https://stan.stb.gov.sg/portal/home.html" style="text-decoration:none;">{{ _('Singapore Tourism Analytics Network (Stan)') }}</a></li>
+              <li><a href="https://www.stb.gov.sg/content/stb/en.html"  style="text-decoration:none;">{{ _('STB Corporate Website') }}</a></li>
+              <li><a href="https://tih.stb.gov.sg/content/tih/en/home.html"  style="text-decoration:none;">{{ _('Singapore Tourism Information and Services Hub (TIH)') }}</a></li>
+              <li><a href="http://www.visitsingapore.com/"  style="text-decoration:none;">{{ _('Visit Singapore - Tourist Information') }}</a></li>
+              <li><a href="http://www.visitsingapore.com/mice/en.html"  style="text-decoration:none;">{{ _('Singapore Exhibition & Convention Bureau (SECB)') }}</a></li>
+              <li><a href="https://www.singaporetourismawards.gov.sg/"  style="text-decoration:none;">{{ _('Singapore Tourism Awards') }}</a></li>
+              <li><a href="https://trust.stb.gov.sg/site/content/tagaem/landing-page.html"  style="text-decoration:none;">{{ _('Travel Agents and Tourist Guides Licensing System (TRUST)') }}</a></li>
+
+            {% endblock %}
+          </ul>
+        {% endblock %}
+      </div>
+    </div>
+    {% endblock %}
+  </div>
+
+  {% block footer_debug %}
+    {% if g.debug %}
+      {% include 'snippets/debug.html' %}
+    {% endif %}
+  {% endblock %}
+</footer>

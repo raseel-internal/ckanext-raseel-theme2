@@ -1,0 +1,190 @@
+/* Start - Copied from Stanti porta - screen.css*/
+/* ALL USABLE FONTS */
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+
+/* ICON FONT SETS */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css');
+@import url('https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css');
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	position: relative;
+	min-height: 100vh;
+	color: #333;
+	/*-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;*/
+}
+
+.font-open-sans {
+	font-family: 'Open Sans', sans-serif !important;
+}
+.font-montserrat {
+	font-family: 'Montserrat', sans-serif !important;
+}
+.font-lato {
+	font-family: 'Lato', sans-serif !important;
+}
+.font-source-sans-pro {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+.font-nunito {
+	font-family: 'Nunito Sans', sans-serif !important;
+}
+.font-work-sans {
+	font-family: 'Work Sans', sans-serif !important;
+}
+
+b, strong {
+	font-weight: 600;
+}
+.no-scroll,
+.no-scroll-1 {
+	overflow: hidden;
+}
+.container,
+.container-fluid {
+	min-width: 320px;
+}
+.container-fluid {
+	max-width: 1280px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 400
+} 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+a {
+	color: #46679F;
+}
+
+.dataset-catalogue-heading {
+	font-size: 15px;
+	margin-top: 0;
+	margin-bottom: 8px;
+	line-height: 1.3;
+  }
+  .dataset-catalogue-heading a {
+	color: #333;
+  }
+  .dataset-catalogue-heading .label {
+	position: relative;
+	top: -1px;
+  }
+
+/* End - Copied from Stanti porta - screen.css*/
+
+
+@media (min-width: 768px) {
+  .hero {
+    background: none;/* Removes the CKAN tile background */
+    background-color: #FFFFFF;  
+  }
+
+}
+
+.account-masthead {
+  background-color: #f0f0f0;
+  font-weight: 400;
+}
+
+/* The text and icons in the user account info. */
+.account-masthead .account ul li a {
+color: rgba(0,0,0);
+}
+
+/* The user account info text and icons, when the user's pointer is hovering
+ over them. */
+ .account-masthead .account ul li a:hover {
+  color: #09867e;
+  background-color:rgb(226,226,226);
+}
+
+.masthead {
+background-color: #FFFFFF;
+}
+/* The "navigation pills" in the masthead (the links to Datasets,
+ Organizations, etc) when the user's pointer hovers over them. */
+
+.masthead .navigation .nav-pills li a{
+background-color: #FFFFFF;
+color: #393939;
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a{
+background-color: #FFFFFF;
+color: #09867e;
+font-weight: bolder;
+border-bottom: 2px solid #09867e;
+}
+
+
+
+
+/* ===========================================
+ The content in the middle of the front page
+ =========================================== */
+
+/* Remove the "box shadow" effect around various boxes on the page. */
+.box {
+box-shadow: none;
+}
+
+
+
+/* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
+ boxes. */
+.hero .box {
+border: none;
+}
+/* Change the colors of the "Search Your Data" box. */
+.homepage .module-search .module-content {
+color: #444444;
+background-color: #FFFFFF;
+border: none;
+
+}
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+background-color: #343434;
+}
+/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
+ and "Search Your Data" boxes line up. */
+.module-content:last-child {
+padding-bottom: 0px;
+}
+.homepage .module-search {
+padding: 0px;
+}
+/* Add a border line between the top and bottom halves of the front page. */
+/*.homepage [role="main"] {
+border-top: 1px solid rgb(204, 204, 204);
+}*/
+
+
+/* ====================================
+ The footer at the bottom of the site
+ ==================================== */
+
+ .site-footer,
+ body{
+   /*background-color: #323232;*/
+   background-color: rgb(0,128,122);
+   background: linear-gradient(135deg, rgba(0,128,122,1) 25%, rgba(87,97,213,1) 100%);
+ }
+ /* The text in the footer. */
+ .site-footer,
+ .site-footer label,
+ .site-footer small {
+   color: rgba(255, 255, 255, 0.6);
+ }
+ /* The link texts in the footer. */
+ .site-footer a {
+   color: rgba(255, 255, 255, 0.6);
+ }
