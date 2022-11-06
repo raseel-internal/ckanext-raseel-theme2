@@ -2,30 +2,30 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/vr2915/ckanext-stanti_theme.svg?branch=master
-    :target: https://travis-ci.org/vr2915/ckanext-stanti_theme
+.. image:: https://travis-ci.org/vr2915/ckanext-raseel_theme.svg?branch=master
+    :target: https://travis-ci.org/vr2915/ckanext-raseel_theme
 
-.. image:: https://coveralls.io/repos/vr2915/ckanext-stanti_theme/badge.svg
-  :target: https://coveralls.io/r/vr2915/ckanext-stanti_theme
+.. image:: https://coveralls.io/repos/vr2915/ckanext-raseel_theme/badge.svg
+  :target: https://coveralls.io/r/vr2915/ckanext-raseel_theme
 
-.. image:: https://img.shields.io/pypi/v/ckanext-stanti_theme.svg
-    :target: https://pypi.org/project/ckanext-stanti_theme/
+.. image:: https://img.shields.io/pypi/v/ckanext-raseel_theme.svg
+    :target: https://pypi.org/project/ckanext-raseel_theme/
     :alt: Latest Version
 
-.. image:: https://img.shields.io/pypi/pyversions/ckanext-stanti_theme.svg
-    :target: https://pypi.org/project/ckanext-stanti_theme/
+.. image:: https://img.shields.io/pypi/pyversions/ckanext-raseel_theme.svg
+    :target: https://pypi.org/project/ckanext-raseel_theme/
     :alt: Supported Python versions
 
-.. image:: https://img.shields.io/pypi/status/ckanext-stanti_theme.svg
-    :target: https://pypi.org/project/ckanext-stanti_theme/
+.. image:: https://img.shields.io/pypi/status/ckanext-raseel_theme.svg
+    :target: https://pypi.org/project/ckanext-raseel_theme/
     :alt: Development Status
 
-.. image:: https://img.shields.io/pypi/l/ckanext-stanti_theme.svg
-    :target: https://pypi.org/project/ckanext-stanti_theme/
+.. image:: https://img.shields.io/pypi/l/ckanext-raseel_theme.svg
+    :target: https://pypi.org/project/ckanext-raseel_theme/
     :alt: License
 
 =============
-ckanext-stanti_theme
+ckanext-raseel_theme
 =============
 
 .. Put a description of your extension here:
@@ -49,17 +49,17 @@ Installation
    For example installing any non-Python dependencies or adding any required
    config settings.
 
-To install ckanext-stanti_theme:
+To install ckanext-raseel_theme:
 
 1. Activate your CKAN virtual environment, for example::
 
      . /usr/lib/ckan/default/bin/activate
 
-2. Install the ckanext-stanti_theme Python package into your virtual environment::
+2. Install the ckanext-raseel_theme Python package into your virtual environment::
 
-     pip install ckanext-stanti_theme
+     pip install ckanext-raseel_theme
 
-3. Add ``stanti_theme`` to the ``ckan.plugins`` setting in your CKAN
+3. Add ``raseel_theme`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
    ``/etc/ckan/default/ckan.ini``).
 
@@ -78,18 +78,18 @@ None at present
 
 .. # The minimum number of hours to wait before re-checking a resource
    # (optional, default: 24).
-   ckanext.stanti_theme.some_setting = some_default_value
+   ckanext.raseel_theme.some_setting = some_default_value
 
 
 ----------------------
 Developer installation
 ----------------------
 
-To install ckanext-stanti_theme for development, activate your CKAN virtualenv and
+To install ckanext-raseel_theme for development, activate your CKAN virtualenv and
 do::
 
-    git clone https://github.com/vr2915/ckanext-stanti_theme.git
-    cd ckanext-stanti_theme
+    git clone https://github.com/vr2915/ckanext-raseel_theme.git
+    cd ckanext-raseel_theme
     python setup.py develop
     pip install -r dev-requirements.txt
 
@@ -105,14 +105,14 @@ To run the tests, do::
 To run the tests and produce a coverage report, first make sure you have
 ``pytest-cov`` installed in your virtualenv (``pip install pytest-cov``) then run::
 
-    pytest --ckan-ini=test.ini  --cov=ckanext.stanti_theme
+    pytest --ckan-ini=test.ini  --cov=ckanext.raseel_theme
 
 
 ----------------------------------------
-Releasing a new version of ckanext-stanti_theme
+Releasing a new version of ckanext-raseel_theme
 ----------------------------------------
 
-ckanext-stanti_theme should be available on PyPI as https://pypi.org/project/ckanext-stanti_theme.
+ckanext-raseel_theme should be available on PyPI as https://pypi.org/project/ckanext-raseel_theme.
 To publish a new version to PyPI follow these steps:
 
 1. Update the version number in the ``setup.py`` file.

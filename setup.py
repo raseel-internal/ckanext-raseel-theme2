@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-stanti_theme''',
+    name='''ckanext-raseel_theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -24,7 +24,7 @@ setup(
 
     # The project's main homepage.
     url='https://github.com/vr2915/'\
-            'ckanext-stanti_theme',
+            'ckanext-raseel_theme',
 
     # Author details
     author='''Vergel Maranan''',
@@ -52,7 +52,7 @@ setup(
 
 
     # What does your project relate to?
-    keywords='''CKAN stanti marketplace''',
+    keywords='''CKAN raseel marketplace''',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -86,7 +86,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        stanti_theme=ckanext.stanti_theme.plugin:StantiThemePlugin
+        raseel_theme=ckanext.raseel_theme.plugin:raseelThemePlugin
     ''',
 
     # If you are changing from the default layout of your extension, you may

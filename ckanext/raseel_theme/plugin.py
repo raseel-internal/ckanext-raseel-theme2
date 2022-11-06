@@ -2,7 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
 
-class StantiThemePlugin(plugins.SingletonPlugin):
+class RaseelThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
    
 
@@ -11,4 +11,4 @@ class StantiThemePlugin(plugins.SingletonPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('fanstatic', 'stanti_theme')
+        toolkit.add_resource('fanstatic', 'raseel_theme')
