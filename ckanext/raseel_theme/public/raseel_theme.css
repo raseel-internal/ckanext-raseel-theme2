@@ -194,3 +194,32 @@ body {
 .site-footer a {
   color: rgba(255, 255, 255, 0.6);
 }
+/* ====================================
+    Languages switcher
+   ==================================== */
+
+ul.language-switcher ul.dropdown-menu {
+  left: -136px;
+}
+.dropdown-menu .divider {
+  height: 2px;
+}
+.navbar li.item-112:hover .dropdown-menu,
+.navbar-lang li.dropdown:hover .dropdown-menu,
+.navbar-nav li.item-119:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu > li > a {
+  padding: 10px 20px !important;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 50px !important;
+}
+.navbar-lang li a {
+  text-transform: capitalize;
+}
+.navbar .navbar-lang {
+  margin-right: 0;
+}
