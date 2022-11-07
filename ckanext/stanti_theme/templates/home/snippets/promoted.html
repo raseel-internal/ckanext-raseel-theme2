@@ -1,0 +1,25 @@
+{% set intro = g.site_intro_text %}
+{% set tags = h.get_facet_items_dict('tags', c.search_facets, limit=3) %}
+{% set placeholder = _('Search the Data Marketplace') %}
+
+<div class="module-content box">
+
+  <div>
+    {% if intro %}
+      {{ h.render_markdown(intro) }}
+    {% else %}
+      <h2 class="page-heading">{{ _("Welcome to StanTI Data Marketplace") }}</h2>
+      <p>
+        {% trans %}The Data Marketplace is a data repository for users to share and consume Singapore tourism-related data.
+
+        {% endtrans %}
+      </p>
+      <h2 class="page-heading">{{ _("") }}</h2>
+    {% endif %}
+  </div>
+
+
+
+
+
+</div>
