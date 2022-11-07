@@ -2,7 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
 
-class StantiThemePlugin(plugins.SingletonPlugin):
+class RaseelThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
    
 
