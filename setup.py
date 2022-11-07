@@ -87,7 +87,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        stanti_theme=ckanext.raseel_theme.plugin:StantiRaseelPlugin
+        raseel_theme=ckanext.raseel_theme.plugin:StantiRaseelPlugin
     ''',
 
     # If you are changing from the default layout of your extension, you may
