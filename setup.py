@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-raseel-theme''',
+    name='''ckanext-stanti-theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -23,7 +23,7 @@ setup(
     long_description_content_type='text/x-rst',
 
     # The project's main homepage.
-    url='https://github.com/raseel-internal/ckanext-raseel-theme2',
+    url='https://github.com/vr2915/ckanext-stanti_theme',
 
     # Author details
     author='''Vergel Maranan''',
@@ -52,7 +52,7 @@ setup(
 
 
     # What does your project relate to?
-    keywords='''Raseel Theme''',
+    keywords='''Stanti Theme''',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -86,7 +86,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        raseel_theme=ckanext.raseel_theme.plugin:RaseelThemePlugin
+        stanti_theme=ckanext.stanti_theme.plugin:StantiThemePlugin
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
     ''',
