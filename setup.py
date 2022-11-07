@@ -23,8 +23,7 @@ setup(
     long_description_content_type='text/x-rst',
 
     # The project's main homepage.
-    url='https://github.com/raseel-internal/'\
-            'ckanext-raseel-theme2',
+    url='https://github.com/raseel-internal/ckanext-raseel-theme2',
 
     # Author details
     author='''Vergel Maranan''',
@@ -87,7 +86,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        raseel_theme=ckanext.raseel_theme.plugin:StantiRaseelPlugin
+        raseel_theme=ckanext.raseel_theme.plugin:RaseelThemePlugin
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
     ''',
