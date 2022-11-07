@@ -11,7 +11,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-raseel_theme''',
+    name='''ckanext-raseel-theme''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -88,6 +88,8 @@ setup(
     entry_points='''
         [ckan.plugins]
         raseel_theme=ckanext.raseel_theme.plugin:StantiRaseelPlugin
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
     ''',
 
     # If you are changing from the default layout of your extension, you may
