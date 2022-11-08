@@ -7,8 +7,8 @@
           ><img
             src="/base/images/icon-sg-crest.svg"
             style="height: 20px; width: 20px"
-            alt="A Singapore Government Agency Website"
-            title="A Singapore Government Agency Website"
+            alt="Madinah Development Authority"
+            title="Madinah Development Authority"
         /></a>
       </h4>
     </hgroup>
@@ -19,17 +19,18 @@
       data-me="{{ c.userobj.id }}"
     >
       <ul class="list-unstyled">
-        {% block header_account_logged %}
-        <!-- 
-        {% if c.userobj.sysadmin %}
+        {% block header_account_logged %} {% if c.userobj.sysadmin %}
         <li>
-          <a href="{{ h.url_for(controller='admin', action='index') }}" title="{{ _('Sysadmin settings') }}">
+          <a
+            href="{{ h.url_for(controller='admin', action='index') }}"
+            title="{{ _('Sysadmin settings') }}"
+          >
             <i class="fa fa-gavel" aria-hidden="true"></i>
             <span class="text">{{ _('Admin') }}</span>
           </a>
         </li>
         {% endif %}
-        -->
+
         <li>
           <a
             href="{{ h.url_for('user.read', id=c.userobj.name) }}"
@@ -40,12 +41,18 @@
             <span class="username">{{ c.userobj.display_name }}</span>
           </a>
         </li>
-        <!--
+        <li class="dropdown">{% snippet "language_switcher.html" %}</li>
+
         {% set new_activities = h.new_activities() %}
-        <li class="notifications {% if new_activities > 0 %}notifications-important{% endif %}">
-          {% set notifications_tooltip = ngettext('Dashboard (%(num)d new item)', 'Dashboard (%(num)d new items)', new_activities)
-          %}
-          <a href="{{ h.url_for('dashboard.index') }}" title="{{ notifications_tooltip }}">
+        <li
+          class="notifications {% if new_activities > 0 %}notifications-important{% endif %}"
+        >
+          {% set notifications_tooltip = ngettext('Dashboard (%(num)d new
+          item)', 'Dashboard (%(num)d new items)', new_activities) %}
+          <a
+            href="{{ h.url_for('dashboard.index') }}"
+            title="{{ notifications_tooltip }}"
+          >
             <i class="fa fa-tachometer" aria-hidden="true"></i>
             <span class="text">{{ _('Dashboard') }}</span>
             <span class="badge">{{ new_activities }}</span>
@@ -53,23 +60,23 @@
         </li>
         {% block header_account_settings_link %}
         <li>
-          <a href="{{ h.url_for('user.edit', id=c.userobj.name) }}" title="{{ _('Profile settings') }}">
+          <a
+            href="{{ h.url_for('user.edit', id=c.userobj.name) }}"
+            title="{{ _('Profile settings') }}"
+          >
             <i class="fa fa-cog" aria-hidden="true"></i>
             <span class="text">{{ _('Profile settings') }}</span>
           </a>
         </li>
-        
-        {% endblock %} 
-        {% block header_account_log_out_link %}
+
+        {% endblock %} {% block header_account_log_out_link %}
         <li>
           <a href="{{ h.url_for('/user/_logout') }}" title="{{ _('Log out') }}">
             <i class="fa fa-sign-out" aria-hidden="true"></i>
             <span class="text">{{ _('Log out') }}</span>
           </a>
         </li>
-        {% endblock %}
-        -->
-        {% endblock %}
+        {% endblock %} {% endblock %}
       </ul>
     </div>
     {% else %}
@@ -132,10 +139,10 @@
       {% block header_site_navigation %}
       <nav class="section navigation">
         <ul class="nav nav-pills">
-          {% block header_site_navigation_tabs %} {{ h.build_nav_main(
-          ('dataset.search', _('Datasets')), ('organization.index',
-          _('Organizations')), ('group.index', _('Groups')), ('home.about',
-          _('About')) ) }} {% endblock %}
+          {% block header_site_navigation_tabs %} {{
+          h.build_nav_main(('home.index', _('Home')), ('dataset.search',
+          _('Datasets')), ('organization.index', _('Organizations')),
+          ('group.index', _('Groups'))) }} {% endblock %}
         </ul>
       </nav>
       {% endblock %} {% block header_site_search %}
