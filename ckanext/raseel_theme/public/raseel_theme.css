@@ -295,3 +295,63 @@ ul.language-switcher ul.dropdown-menu {
   background-image: url("/Madinah.JPG");
   background-size: contain;
 }
+
+input.searchbar__input[type="text"] {
+  display: inline-block;
+  height: 40px;
+  padding-left: 20px;
+  margin: auto 0;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+input.searchbar__input::placeholder {
+  font-size: 16px;
+  color: #666;
+}
+
+.search__block {
+  position: relative;
+}
+@media (max-width: 990px) {
+  .search__block__input {
+    margin-bottom: 15px;
+  }
+  .searchbar__form {
+    border-radius: 4px !important;
+    margin-top: -60px;
+    width: 100% !important;
+  }
+}
+div.searchbar {
+  height: 0px;
+}
+.searchbar__form {
+  background: #00000033;
+  padding: 30px 40px;
+  border-radius: 90px;
+  width: 100%;
+  margin-top: -155px;
+}
+
+button.searchbar__button[type="submit"] {
+  border: none;
+  outline: inherit;
+  background-color: #0083bc;
+  color: #fff;
+  border-radius: 4rem;
+  line-height: 28px;
+  margin-left: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
+  transition: 0.15s;
+}
+button.searchbar__button:hover {
+  background: #b9d9eb;
+}
+.btn-light-blue {
+  background: #b9d9eb;
+}
