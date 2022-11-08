@@ -289,3 +289,9 @@ ul.language-switcher ul.dropdown-menu {
 .navbar .navbar-lang {
   margin-right: 0;
 }
+
+#particles-js {
+  height: 340px;
+  background-image: url("/Madinah.JPG");
+  background-size: contain;
+}
