@@ -1,17 +1,6 @@
 {% block header_wrapper %} {% block header_account %}
 <div class="account-masthead">
   <div class="container">
-    <hgroup class="{{ g.header_class }} navbar-left">
-      <h4>
-        <a class="logo" href="https://www.gov.sg"
-          ><img
-            src="/base/images/icon-sg-crest.svg"
-            style="height: 20px; width: 20px"
-            alt="Madinah Development Authority"
-            title="Madinah Development Authority"
-        /></a>
-      </h4>
-    </hgroup>
     {% block header_account_container_content %} {% if c.userobj %}
     <div
       class="account avatar authed"
@@ -108,33 +97,29 @@
       </button>
     </div>
     <hgroup class="{{ g.header_class }} navbar-left">
-      {% block header_logo %} {% if g.site_logo %}
-      <a class="logo vertical-center" href="{{ h.url_for('home.index') }}"
-        ><img
-          src="{{ h.url_for_static_or_external(g.site_logo) }}"
-          alt="{{ g.site_title }}"
-          title="{{ g.site_title }}"
+      <a class="logo vertical-center" href="https://www.gov.sg">
+        <img
+          src="/raseel_logo.png"
+          alt="Raseel Open Data"
+          title="Raseel Open data"
       /></a>
-      {% else %}
-      <h1>
-        <a href="{{ h.url_for('home.index') }}">{{ g.site_title }}</a>
-      </h1>
-      {% if g.site_description %}
-      <h2>{{ g.site_description }}</h2>
-      {% endif %} {% endif %} {% endblock %}
+      <nav class="section navigation">
+        <ul class="nav nav-pills">
+          {{ h.build_nav_main(('home.index', _('Home')), ('dataset.search',
+          _('Datasets')), ('organization.index', _('Organizations')),
+          ('group.index', _('Groups'))) }}
+        </ul>
+      </nav>
+      <a class="logo vertical-center" href="https://www.gov.sg">
+        <img
+          src="/madinah_logo.png"
+          alt="Madinah Development Authority"
+          title="Madinah Development Authority"
+      /></a>
     </hgroup>
 
     <div class="collapse navbar-collapse" id="main-navigation-toggle">
-      {% block header_site_navigation %}
-      <nav class="section navigation">
-        <ul class="nav nav-pills">
-          {% block header_site_navigation_tabs %} {{
-          h.build_nav_main(('home.index', _('Home')), ('dataset.search',
-          _('Datasets')), ('organization.index', _('Organizations')),
-          ('group.index', _('Groups'))) }} {% endblock %}
-        </ul>
-      </nav>
-      {% endblock %} {% block header_site_search %}
+      {% block header_site_search %}
       <form
         class="section site-search simple-input"
         action="{% url_for 'dataset.search' %}"
