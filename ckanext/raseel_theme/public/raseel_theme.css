@@ -414,3 +414,57 @@ button.searchbar__button:hover {
     display: none;
   }
 }
+
+/* Buttons */
+
+div.follow_button > a,
+div.follow_button > a:hover {
+  background-color: #0f9cd9;
+  border: none;
+}
+
+.page_primary_action > a.btn.btn-primary {
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.btn-primary {
+  background-color: #0f9cd9 !important;
+  border: none !important;
+  border-radius: 5em !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.btn {
+  border: none;
+  outline: inherit;
+  border-radius: 4rem;
+  line-height: 28px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.control-custom .checkbox.btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 5px;
+  height: 1px;
+  width: 28px;
+  padding: 2px 7px;
+  line-height: 18px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #0f9cd9;
+  border-color: #0f9cd9;
+}
