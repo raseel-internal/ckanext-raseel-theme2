@@ -414,164 +414,57 @@ button.searchbar__button:hover {
     display: none;
   }
 }
-/* DATASETS BLOCK */
 
-.content-bloc {
-  position: relative;
-}
+/* Buttons */
 
-.section__title {
-  text-transform: uppercase;
-  font-weight: 800;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 0;
+div.follow_button > a,
+div.follow_button > a:hover {
+  background-color: #0f9cd9;
+  border: none;
 }
 
-div.resource-blocs {
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-.dataset-content {
-  overflow-wrap: break-word;
-}
-.dataset__block {
-  border-radius: 4px;
-  margin-bottom: 30px;
-  padding: 30px;
-  background-color: #fff;
-  flex: 1;
-  min-height: 210px;
-}
-.dataset-list .col-md-6:nth-child(3n + 1) .dataset-resources a,
-.dataset-list .col-md-6:nth-child(3n + 1) .dataset-item .dataset-resources a {
-  border: 2px solid #0083bc;
-  color: #0083bc;
-}
-.dataset-list .col-md-6:nth-child(3n + 1) .dataset-resources a:hover,
-.dataset-list
-  .col-md-6:nth-child(3n + 1)
-  .dataset-item
-  .dataset-resources
-  a:hover {
-  background: #0083bc;
-  color: #fff;
-}
-.dataset-list .col-md-6:nth-child(3n + 2) .dataset-resources a,
-.dataset-list .col-md-6:nth-child(3n + 2) .dataset-item .dataset-resources a {
-  background: transparent;
-  border: 2px solid #0f9cd9;
-  color: #0f9cd9;
-}
-.dataset-list .col-md-6:nth-child(3n + 2) .dataset-resources a:hover,
-.dataset-list
-  .col-md-6:nth-child(3n + 2)
-  .dataset-item
-  .dataset-resources
-  a:hover {
-  background: #0f9cd9;
-  color: #fff;
-}
-.dataset-list .col-md-6:nth-child(3n + 3) .dataset-resources a,
-.dataset-list .col-md-6:nth-child(3n + 3) .dataset-item .dataset-resources a {
-  border: 2px solid #ff9933;
-  color: #ff9933;
-}
-.dataset-list .col-md-6:nth-child(3n + 3) .dataset-resources a:hover,
-.dataset-list
-  .col-md-6:nth-child(3n + 3)
-  .dataset-item
-  .dataset-resources
-  a:hover {
-  background: #ff9933;
-  color: #fff;
-}
-.dataset-list
-  .col-md-6:nth-child(3n + 1)
-  .dataset-item
-  .dataset__block-header
-  h4
-  a,
-.dataset-list .col-md-6:nth-child(3n + 1) .dataset-item .dataset-heading a,
-#group_list .col-md-4:nth-child(3n + 1) .media-item h3 {
-  color: #0083bc;
-}
-.dataset-list
-  .col-md-6:nth-child(3n + 2)
-  .dataset-item
-  .dataset__block-header
-  h4
-  a,
-.dataset-list .col-md-6:nth-child(3n + 2) .dataset-item .dataset-heading a,
-#group_list .col-md-4:nth-child(3n + 2) .media-item h3 {
-  color: #0f9cd9;
-}
-.dataset-list
-  .col-md-6:nth-child(3n + 3)
-  .dataset-item
-  .dataset__block-header
-  h4
-  a,
-.dataset-list .col-md-6:nth-child(3n + 3) .dataset-item .dataset-heading a,
-#group_list .col-md-4:nth-child(3n + 3) .media-item h3 {
-  color: #ff9933;
-}
-.dataset__block-header {
-  list-style: none;
-  display: block;
+.page_primary_action > a.btn.btn-primary {
+  font-weight: 600;
   margin-left: 0;
 }
-.wide .media-item {
-  width: 100% !important;
-}
-.dataset__block-header h4,
-.dataset-heading a {
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.dataset__block-header-item {
-  display: inline-block;
+
+.btn-primary {
+  background-color: #0f9cd9 !important;
+  border: none !important;
+  border-radius: 5em !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
 }
 
-.dataset__block-header-item > a > img {
-  height: 60px;
-  width: 60px;
-}
-.dataset__block-header-icon {
-  left: 10px;
-  padding: 0 !important;
-}
-.dataset__block-header h5 {
-  margin-bottom: 0;
-}
-.logo-mobile {
-  height: 30px;
-  margin: -2px 0 0px 40%;
-}
-.logo img {
-  height: 50px;
-  margin: -12px 0 -2px 0px;
+.btn {
+  border: none;
+  outline: inherit;
+  border-radius: 4rem;
+  line-height: 28px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-ul.dataset-list.unstyled > li {
-  height: 200px;
+.control-custom .checkbox.btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
   position: relative;
+  top: 0;
+  left: 5px;
+  height: 1px;
+  width: 28px;
+  padding: 2px 7px;
+  line-height: 18px;
 }
 
-.dataset-resources .label {
-  display: inline;
-  padding: 5px 10px;
-  font-size: 100%;
-  font-weight: 700;
-  line-height: 1;
+.btn-danger {
   color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 25px;
-  margin: 0 0 5px 5px;
-  background: transparent;
-  transition: 0.1s;
-  background: #fff;
+  background-color: #0f9cd9;
+  border-color: #0f9cd9;
 }
-/* DATASET BLOCK END */
