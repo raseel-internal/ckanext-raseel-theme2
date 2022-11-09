@@ -1,35 +1,31 @@
-{% ckan_extends %}
-<!-- {% set tags = h.get_facet_items_dict('tags', c.search_facets, limit=3) %}
-{% set placeholder = _('Search the Data Marketplace') %}
+{% set tags = h.get_facet_items_dict('tags', limit=3) %} {% set placeholder =
+_('eg. Gold Prices') %} {% set current_lang = request.environ.CKAN_LANG %}
 
-
-
-
-
-<div class="module module-search module-narrow module-shallow box">
-
-  <form class="module-content search-form" method="get" action="{% url_for 'dataset.search' %}">
-
-    <h2 class="page-heading">{{ _("Welcome to the Stan Data Marketplace") }}</h2>
-    <p>
-      {% trans %}The Data Marketplace is a data repository for users to share and consume Singapore tourism-related data.
-
-      {% endtrans %}
-    </p>
-    <h2 class="heading">{{ _("") }}</h2>
-    <div class="search-input form-group search-giant">
-      <input aria-label="{% block header_site_search_label %}{{ _('Search datasets') }}{% endblock %}" id="field-main-search" type="text" class="form-control" name="q" value="" autocomplete="off" placeholder="{% block search_placeholder %}{{ placeholder }}{% endblock %}" />
-      <button type="submit" aria-labelledby="search-label">
-        <i class="fa fa-search"></i>
-        <span class="sr-only" id="search-label">{{ _('Search') }}</span>
-      </button>
-    </div>
-  </form> -->
-  <!--<div class="tags">
-    <h3>{{ _('Popular tags') }}</h3>
-    {% for tag in tags %}
-      <a class="tag" href="{% url_for 'dataset.search', tags=tag.name %}">{{ h.truncate(tag.display_name, 22) }}</a>
-    {% endfor %}
+<div class="searchbar">
+  <div class="search__block container">
+    <!-- <div class="col-md-8 col-sm-10 col-xs-12"> -->
+    <form class="searchbar__form" action="/{{current_lang}}/dataset">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-md-10 search__block__input">
+          <input
+            class="searchbar__input col-xs-12"
+            type="text"
+            name="q"
+            value=""
+            autocomplete="off"
+            placeholder="{{ _('Search Your Data') }}"
+          />
+        </div>
+        <div class="col-xs-12 col-md-2">
+          <button
+            type="submit"
+            class="btn btn-light-blue searchbar__button col-xs-12"
+          >
+            <span>{{ _('Search') }}</span>
+          </button>
+        </div>
+      </div>
+    </form>
+    <!-- </div> -->
   </div>
-  -->
-<!-- </div> -->
+</div>
