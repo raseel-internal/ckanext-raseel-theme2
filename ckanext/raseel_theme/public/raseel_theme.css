@@ -137,7 +137,7 @@ a {
 /* The user account info text and icons, when the user's pointer is hovering
  over them. */
 .account-masthead .account ul li a:hover {
-  color: #09867e;
+  color: #0f9cd9;
   background-color: rgb(226, 226, 226);
 }
 
@@ -156,9 +156,9 @@ a {
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
   background-color: #ffffff;
-  color: #09867e;
+  color: #0f9cd9;
   font-weight: bolder;
-  border-bottom: 2px solid #09867e;
+  border-bottom: 2px solid #0f9cd9;
 }
 
 /* ===========================================
@@ -354,4 +354,63 @@ button.searchbar__button:hover {
 }
 .btn-light-blue {
   background: #b9d9eb;
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
+/* homepage1 */
+
+.homepage.layout-1 .row1 .col2,
+.homepage.layout-1 .row2 .col2 {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .homepage.layout-1 .row1 .col1 {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row1 .col1,
+  .row2 .col1 {
+    margin-bottom: 20px;
+  }
+}
+
+.header__title {
+  background-color: transparent;
+  color: #fff;
+  position: relative;
+}
+.header__title h1 {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  margin-top: 85px;
+}
+@media (max-width: 767px) {
+  .header__title h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    margin-top: 60px;
+  }
+  .header__title span {
+    display: none;
+  }
+  body > .homepage {
+    padding-top: 0px !important;
+  }
+}
+.header__title span {
+  opacity: 0.8;
+}
+@media (max-width: 1020px) {
+  .header__logo.col-md-3 {
+    display: none;
+  }
 }
