@@ -105,18 +105,6 @@
     <hgroup class="{{ g.header_class }} navbar-left">
       <nav class="section navigation">
         <ul class="nav nav-pills">
-          <li>
-            <a
-              class="logo vertical-center"
-              href="{{ h.url_for('home.index') }}"
-            >
-              <img
-                src="/raseel-favicon.png"
-                style="margin: 0px; padding: 0px; width: 60px; height: 20px"
-                alt="{{ g.site_title }}"
-                title="{{ g.site_title }}"
-            /></a>
-          </li>
           {{ h.build_nav_main(('home.index', _('Home')), ('dataset.search',
           _('Datasets')), ('organization.index', _('Organizations')),
           ('group.index', _('Groups'))) }}
