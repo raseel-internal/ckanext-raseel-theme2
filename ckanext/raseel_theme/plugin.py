@@ -1,6 +1,5 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.lib.activity_streams import activity_stream_string_functions
 import routes.mapper
 
 
