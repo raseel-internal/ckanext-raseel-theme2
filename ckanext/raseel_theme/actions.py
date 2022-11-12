@@ -5,7 +5,6 @@ import uuid
 import zipfile
 
 from ckan.controllers.admin import get_sysadmins
-from ckan.lib.mailer import MailerException
 from ckan.logic.action.create import package_create as core_package_create
 from ckan.logic.action.update import package_update as core_package_update
 from ckan.logic.action.get import activity_detail_list as core_activity_detail_list
