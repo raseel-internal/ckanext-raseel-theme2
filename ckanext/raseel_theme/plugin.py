@@ -1,4 +1,3 @@
-from ckan.lib.activity_streams import activity_stream_string_functions
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 import routes.mapper
@@ -79,15 +78,7 @@ class RaseelThemePlugin(plugins.SingletonPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('fanstatic', 'raseel_theme')
-        activity_stream_string_functions['changed package'] = helpers.custom_activity_renderer
-
-
-    
-
-
-
-   
+        toolkit.add_resource('fanstatic', 'raseel_theme')  
 
     
     # IRoutes
