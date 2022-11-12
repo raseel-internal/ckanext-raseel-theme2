@@ -128,8 +128,8 @@ def prepare_zip_resources(context, data_dict):
                 if content_type in SUPPORTED_RESOURCE_MIMETYPES:
                     resourceArchived = True
                     zip.writestr(name, r.content)
-    except Exception, ex:
-        log.error('An error occured while preparing zip archive. Error: %s' % ex)
+    except Exception as e:
+        log.error('An error occured while preparing zip archive. Error: %s' % e)
         raise
 
     zip_id = file_name
