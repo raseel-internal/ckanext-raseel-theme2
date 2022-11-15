@@ -471,7 +471,7 @@ div.follow_button > a:hover {
 
 .card {
   --card-gradient: rgba(0, 0, 0, 0.8);
-  --card-gradient: #b9d9eb, #89cff0;
+  --card-gradient: #e3eff7, #b8e2f6;
   --card-blend-mode: overlay;
   background-color: #fff;
   border-radius: 0.5rem;
@@ -503,7 +503,7 @@ div.follow_button > a:hover {
 }
 .card:hover,
 .card:focus-within {
-  --card-gradient: #24a9d5 max(8.5rem, 20vh);
+  --card-gradient: #e3eff7 max(8.5rem, 20vh);
 }
 
 /* Additional demo display styles */
