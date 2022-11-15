@@ -103,16 +103,15 @@
     <hgroup class="{{ g.header_class }} navbar-left">
       <nav class="section navigation">
         <ul class="nav nav-pills">
-          <li>
-            <a class="logo" href="https://www.gov.sg">
-              <img
-                src="/raseel_logo.png"
-                style="width: 70px; height: 20px; object-fit: cover"
-            /></a>
-          </li>
-          {{ h.build_nav_main(('home.index', _('Home')), ('dataset.search',
-          _('Datasets')), ('organization.index', _('Organizations')),
-          ('group.index', _('Groups'))) }}
+          {% block header_logo %}
+          <a class="logo vertical-center" href="{{ h.url_for('home.index') }}"
+            ><img
+              src="/raseel_logo.png"
+              style="width: 80px; height: 40px; object-fit: cover"
+          /></a>
+          {% endblock %} {{ h.build_nav_main(('home.index', _('Home')),
+          ('dataset.search', _('Datasets')), ('organization.index',
+          _('Organizations')), ('group.index', _('Groups'))) }}
         </ul>
       </nav>
     </hgroup>
