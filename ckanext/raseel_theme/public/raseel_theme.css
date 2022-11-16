@@ -138,24 +138,47 @@ a {
  over them. */
 .account-masthead .account ul li a:hover {
   color: #0f9cd9;
+  position: relative;
   background-color: rgb(226, 226, 226);
 }
 
 .masthead {
   background-color: #ffffff;
 }
+.masthead .navigation.section {
+  float: left;
+  position: relative;
+  width: 600px;
+}
+@media (min-width: 500px) and (max-width: 991px) {
+  .masthead .navigation.section {
+    float: right;
+    width: 600px;
+  }
+}
+
 /* The "navigation pills" in the masthead (the links to Datasets,
  Organizations, etc) when the user's pointer hovers over them. */
 
 .masthead .navigation .nav-pills li a {
+  position: relative;
+  width: fit-content;
   background-color: #ffffff;
   color: #393939;
+}
+
+.masthead .navigation a {
+  float: left;
+  position: relative;
+  width: fit-content;
 }
 
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
   background-color: #ffffff;
+  width: fit-content;
+  position: relative;
   color: #0f9cd9;
   font-weight: bolder;
   border-bottom: 2px solid #0f9cd9;
