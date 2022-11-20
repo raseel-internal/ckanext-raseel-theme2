@@ -1,17 +1,31 @@
-{% ckan_extends %}
-<!-- {% set intro = g.site_intro_text %} {% set tags = h.get_facet_items_dict('tags',
-c.search_facets, limit=3) %} {% set placeholder = _('Search the Data
-Marketplace') %}
+{% set intro = g.site_intro_text %}
 
 <div class="module-content box">
   <div>
     {% if intro %} {{ h.render_markdown(intro) }} {% else %}
-    <h2 class="page-heading">{{ _("Welcome to raseel Data Marketplace") }}</h2>
-    <p>
-      {% trans %}The Data Marketplace is a data repository for users to share
-      and consume Singapore tourism-related data. {% endtrans %}
-    </p>
-    <h2 class="page-heading">{{ _("") }}</h2>
+    <h1 class="page-heading">
+      {{ _("Welcome to Raseel Open Data Platform") }}
+    </h1>
     {% endif %}
   </div>
-</div> -->
+
+  {% block home_image %}
+  <section class="featured media-overlay hidden-xs">
+    <h2 class="media-heading">
+      {% block home_image_caption %}{{ _("This is a featured section") }}{%
+      endblock %}
+    </h2>
+    {% block home_image_content %}
+    <a class="media-image" href="#">
+      <img
+        class="img-responsive"
+        src="{{ h.url_for_static('/base/images/placeholder-420x220.png') }}"
+        alt="Placeholder"
+        width="420"
+        height="220"
+      />
+    </a>
+    {% endblock %}
+  </section>
+  {% endblock %}
+</div>
