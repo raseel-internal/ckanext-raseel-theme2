@@ -1,26 +1,34 @@
 {% set stats = h.get_site_statistics() %}
-
-<!--<div class="box stats">-->
-<div class="module-content">  
-  <div class="inner">
-    <h3 class="page-heading">{{ _("Statistics") }}</h3> 
+<div class="module-content box">
+  <h1 class="page-heading">{{ _("Statistics") }}</h1>
+  <div class="chart">
+    <canvas id="bar-chart" height="300" width="400"></canvas>
+  </div>
+  <div class="key">
     <ul>
       {% block stats_group %}
       <li>
         <a href="{{ h.url_for('dataset.search') }}">
-          <strong>{{ h.SI_number_span(stats.dataset_count) }}</strong>
+          <strong id="dataset" class="percent dark_blue"
+            >{{ h.SI_number_span(stats.dataset_count) }}</strong
+          >
           {{ _('dataset') if stats.dataset_count == 1 else _('datasets') }}
         </a>
       </li>
       <li>
         <a href="{{ h.url_for(controller='organization', action='index') }}">
-          <strong>{{ h.SI_number_span(stats.organization_count) }}</strong>
-          {{ _('organization') if stats.organization_count == 1 else _('organizations') }}
+          <strong id="organization" class="percent generic_grey"
+            >{{ h.SI_number_span(stats.organization_count) }}</strong
+          >
+          {{ _('organization') if stats.organization_count == 1 else
+          _('organizations') }}
         </a>
       </li>
       <li>
         <a href="{{ h.url_for(controller='group', action='index') }}">
-          <strong>{{ h.SI_number_span(stats.group_count) }}</strong>
+          <strong class="percent light_grey" id="group"
+            >{{ h.SI_number_span(stats.group_count) }}</strong
+          >
           {{ _('group') if stats.group_count == 1 else _('groups') }}
         </a>
       </li>
@@ -28,3 +36,35 @@
     </ul>
   </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<script>
+  const dataset_count = document.getElementById("dataset").textContent;
+  const organization_count =
+    document.getElementById("organization").textContent;
+  const group_count = document.getElementById("group").textContent;
+
+  new Chart(document.getElementById("bar-chart"), {
+    type: "pie",
+
+    data: {
+      labels: ["Datasets", "Organizations", "Groups"],
+      datasets: [
+        {
+          backgroundColor: ["#171B4A", "#86869D", "#C8C8D0"],
+          data: [dataset_count, organization_count, group_count],
+        },
+      ],
+    },
+
+    options: {
+      title: {
+        display: true,
+        text: "Raseel Open Data Statistics",
+      },
+    },
+  });
+</script>
