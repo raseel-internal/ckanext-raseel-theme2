@@ -216,6 +216,9 @@ a {
 .homepage .module-search {
   padding: 0px;
 }
+.homepage .box .inner {
+  padding: 0px 10px;
+}
 /* Add a border line between the top and bottom halves of the front page. */
 /*.homepage [role="main"] {
 border-top: 1px solid rgb(204, 204, 204);
@@ -384,11 +387,88 @@ button.searchbar__button:hover {
     width: 100%;
   }
 }
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: 350px;
+}
 /* homepage1 */
 
 .homepage.layout-1 .row1 .col2,
 .homepage.layout-1 .row2 .col2 {
   position: relative;
+}
+.row1 {
+  position: relative;
+}
+
+.homepage.layout-2 .row1 .col2 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.homepage.layout-2 .row1 .col1 .chart {
+  position: relative;
+}
+
+.homepage.layout-2 .row1 .col1 .key {
+  position: absolute;
+  width: auto;
+  text-align: left;
+}
+@media (min-width: 992px) {
+  .homepage [role="main"] {
+    padding: 20px 0;
+  }
+  .homepage.layout-2 .row1 .col {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .homepage.layout-2 .row1 .col2 .module-search {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.key ul {
+  position: relative;
+  float: left;
+  list-style: none;
+  left: 15%;
+  border-collapse: separate;
+}
+.key li {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.key a {
+  text-decoration: none;
+  margin: 10px;
+  float: left;
+  color: #333333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.percent {
+  color: white;
+  padding: 10px 2px;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+}
+.choice {
+  padding-left: 10px;
+}
+.dark_blue {
+  background-color: #171b4a;
+}
+.generic_grey {
+  background-color: #86869d;
+}
+.light_grey {
+  background-color: #c8c8d0;
 }
 
 @media (max-width: 767px) {
