@@ -645,3 +645,81 @@ div.follow_button > a:hover {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.screen-1 {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  gap: 2em;
+}
+.screen-1 .login-logo {
+  display: block;
+  margin: -3em auto auto auto;
+}
+.screen-1 .email {
+  box-shadow: 0 0 1em #d0d0d0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #000;
+  margin-top: -3em;
+}
+.screen-1 .email input {
+  outline: none;
+  border: none;
+}
+.screen-1 .email input::placeholder {
+  color: #000;
+  font-size: 0.9em;
+}
+.screen-1 .email ion-icon {
+  color: #000;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password {
+  box-shadow: 0 0 1em #d0d0d0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #000;
+}
+.screen-1 .password input {
+  outline: none;
+  border: none;
+}
+.screen-1 .password input::placeholder {
+  color: #000;
+  font-size: 0.9em;
+}
+.screen-1 .password ion-icon {
+  color: #000;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+.screen-1 .login {
+  padding: 1em;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.screen-1 .login-footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #000;
+  gap: 14em;
+  padding-bottom: 10em;
+}
+.screen-1 .login-footer span {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
