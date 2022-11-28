@@ -1,15 +1,7 @@
 {% extends "page.html" %} {%block breadcrumb_content %}
 <li class="active">{{ h.nav_link(_('Login'), named_route='user.login') }}</li>
-{% endblock %} {% block primary_content %}
-<section class="module">
-  <div class="module-content">
-    {% block form %} {% snippet "user/snippets/login_form.html",
-    action=g.login_handler, error_summary=error_summary %} {% endblock %}
-  </div>
-</section>
-{% endblock %} {% extends "page.html" %} {%block breadcrumb_content %}
-<li class="active">{{ h.nav_link(_('Login'), named_route='user.login') }}</li>
-{% endblock %} {% block primary_content %}
+{% endblock %} {% block secondary_content %} {% endblock %} {% block
+primary_content %}
 <section class="module">
   <div class="module-content">
     {% block form %} {% snippet "user/snippets/login_form.html",
