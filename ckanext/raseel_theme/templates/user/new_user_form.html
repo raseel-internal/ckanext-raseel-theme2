@@ -2,12 +2,56 @@
 
 <form id="user-register-form" action="" method="post" enctype="multipart/form-data">
   {{ form.errors(error_summary) }}
-  {{ form.input("name", id="field-username", label=_("Username"), placeholder=_("username"), value=data.name, error=errors.name, classes=["control-medium"], is_required=True) }}
-  {{ form.input("fullname", id="field-fullname", label=_("Full Name"), placeholder=_("Joe Bloggs"), value=data.fullname, error=errors.fullname, classes=["control-medium"]) }}
-  {{ form.input("email", id="field-email", label=_("Email"), type="email", placeholder=_("joe@example.com"), value=data.email, error=errors.email, classes=["control-medium"], is_required=True) }}
-  {{ form.input("password1", id="field-password", label=_("Password"), type="password", placeholder="••••••••", value=data.password1, error=errors.password1, classes=["control-medium"], is_required=True) }}
-  {{ form.input("password2", id="field-confirm-password", label=_("Confirm"), type="password", placeholder="••••••••", value=data.password2, error=errors.password2, classes=["control-medium"], is_required=True) }}
+  <div class="screen-1">
+    <img src="/raseel_logo.png"
+      class="login-logo"
+      width="200"
+      height="200"
+    >
+  </img>
+    <div class="email">
+      <label for="name"> <span class="control-required">* </span>Username</label>
+      <div class="sec-2">
+        <input
+          name="name"
+          id="field-username",  placeholder="Username",  error="errors.name" classes=["control-medium"], is_required=True
+        />
+      </div>
+    </div>
+    <div class="password">
+      <label for="password">Fullname</label>
+      <div class="sec-2">
+        <input
+        id="field-fullname",  placeholder="Joe Bloggs", error="errors.fullname" classes=["control-medium"]
+        /> </div>
+    </div>
+    <div class="password">
+      <label for="email"> <span class="control-required">* </span>Email</label>
+      <div class="sec-2">
+        <input
+          name="email"
+          id="field-email", type="email", placeholder="joe@example.com",  error="errors.email", classes=["control-medium"], is_required=True
+        />
+      </div>
+    </div>
+    <div class="password">
+      <label for="password1"> <span class="control-required">* </span>Password</label>
+      <div class="sec-2">
+        <input
+        name="password1"
+        id="field-password", type="password", placeholder="••••••••••••",  error="errors.password1", classes=["control-medium"], is_required=True
+        /> </div>
+    </div>
+    <div class="password">
+      <label for="password2"> <span class="control-required">* </span>Confirm</label>
+      <div class="sec-2">
+        <input
+        name="password2"
+        id="field-confirm-password", type="password",  placeholder="••••••••••••", value="data.password2", error=errors.password2, classes=["control-medium"], is_required=True
+        /> </div>
+    </div>
 
+  
     {% set is_upload = data.image_url and not data.image_url.startswith('http') %}
     {% set is_url = data.image_url and data.image_url.startswith('http') %}
 
@@ -27,4 +71,6 @@
     <button class="btn btn-primary" type="submit" name="save">{{ _("Create Account") }}</button>
     {% endblock %}
   </div>
+  </div>
+   
 </form>
