@@ -148,12 +148,12 @@ a {
 .masthead .navigation.section {
   float: left;
   position: relative;
-  width: 600px;
+  width: 700px;
 }
-@media (min-width: 500px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 1000px) {
   .masthead .navigation.section {
     float: right;
-    width: 600px;
+    width: 700px;
   }
 }
 
