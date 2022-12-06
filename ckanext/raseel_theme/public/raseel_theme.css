@@ -655,7 +655,7 @@ div.follow_button > a:hover {
 }
 .screen-1 .login-logo {
   display: block;
-  margin: -3em auto auto auto;
+  margin: 10px auto 50px auto;
 }
 .screen-1 .email {
   box-shadow: 0 0 1em #d0d0d0;
