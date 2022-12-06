@@ -19,6 +19,7 @@
             <span class="username">{{ c.userobj.display_name }}</span>
           </a>
         </li>
+        <li class="dropdown">{% snippet "language_switcher.html" %}</li>
 
         {% set new_activities = h.new_activities() %}
         <li
@@ -60,6 +61,7 @@
 
     <nav class="account not-authed" aria-label="{{ _('Account') }}">
       <ul class="list-unstyled">
+        <li class="dropdown">{% snippet "language_switcher.html" %}</li>
         {% block header_account_notlogged %}
         <li>{% link_for _('Log in'), named_route='user.login' %}</li>
         {% endblock %}
@@ -101,9 +103,9 @@
           ><img
             src="/Raseel.png"
             style="
-              width: 160px;
-              height: 50px;
-              padding-right: 10px;
+              width: 150px;
+              height: 45px;
+              padding-right: 20px;
               object-fit: cover;
               object-position: left;
             "
