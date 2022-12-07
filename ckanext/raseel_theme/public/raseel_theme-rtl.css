@@ -1,0 +1,725 @@
+/* Start - Copied from raseel porta - screen.css*/
+/* ALL USABLE FONTS */
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap");
+
+/* ICON FONT SETS */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css");
+@import url("https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  height: 100% !important;
+  background: #fff !important;
+}
+body > .main {
+  background-color: #f4f7fa !important;
+}
+body > .homepage {
+  padding-top: 0px !important;
+}
+body .main.second {
+  padding-top: 40px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body > .homepage {
+  padding-top: 25px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: inherit;
+  background-color: #f4f7fa;
+  background-size: cover;
+}
+
+body > .main {
+  min-height: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+  background-image: none;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif !important;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+.font-lato {
+  font-family: "Lato", sans-serif !important;
+}
+.font-source-sans-pro {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+.font-nunito {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+.font-work-sans {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+.no-scroll,
+.no-scroll-1 {
+  overflow: hidden;
+}
+.container,
+.container-fluid {
+  min-width: 320px;
+}
+.container-fluid {
+  max-width: 1280px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+a {
+  color: #46679f;
+}
+
+.dataset-catalogue-heading {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+.dataset-catalogue-heading a {
+  color: #333;
+}
+.dataset-catalogue-heading .label {
+  position: relative;
+  top: -1px;
+}
+
+/* End - Copied from raseel porta - screen.css*/
+
+@media (min-width: 768px) {
+  .hero {
+    background: none; /* Removes the CKAN tile background */
+    background-color: #ffffff;
+  }
+}
+
+.account-masthead {
+  background-color: #f0f0f0;
+  font-weight: 400;
+}
+
+/* The text and icons in the user account info. */
+.account-masthead .account ul li a {
+  color: rgba(0, 0, 0);
+}
+
+/* The user account info text and icons, when the user's pointer is hovering
+ over them. */
+.account-masthead .account ul li a:hover {
+  color: #0f9cd9;
+  position: relative;
+  background-color: rgb(226, 226, 226);
+}
+
+.masthead {
+  background-color: #ffffff;
+}
+.masthead .navigation.section {
+  float: left;
+  position: relative;
+  width: 700px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .masthead .navigation.section {
+    float: right;
+    width: 700px;
+  }
+}
+
+/* The "navigation pills" in the masthead (the links to Datasets,
+ Organizations, etc) when the user's pointer hovers over them. */
+
+.masthead .navigation .nav-pills li a {
+  position: relative;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #393939;
+}
+
+.masthead .navigation a {
+  float: left;
+  position: relative;
+  width: fit-content;
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a {
+  background-color: #ffffff;
+  width: fit-content;
+  position: relative;
+  color: #0f9cd9;
+  font-weight: bolder;
+  border-bottom: 2px solid #0f9cd9;
+}
+
+/* ===========================================
+ The content in the middle of the front page
+ =========================================== */
+
+/* Remove the "box shadow" effect around various boxes on the page. */
+.box {
+  box-shadow: none;
+}
+
+/* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
+ boxes. */
+.hero .box {
+  border: none;
+}
+/* Change the colors of the "Search Your Data" box. */
+.homepage .module-search .module-content {
+  color: #444444;
+  background-color: #ffffff;
+  border: none;
+}
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+  background-color: #343434;
+}
+/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
+ and "Search Your Data" boxes line up. */
+.module-content:last-child {
+  padding-bottom: 0px;
+}
+.homepage .module-search {
+  padding: 0px;
+}
+.homepage .box .inner {
+  padding: 0px 10px;
+}
+/* Add a border line between the top and bottom halves of the front page. */
+/*.homepage [role="main"] {
+border-top: 1px solid rgb(204, 204, 204);
+}*/
+
+/* ====================================
+ The footer at the bottom of the site
+ ==================================== */
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* ====================================
+    Languages switcher
+   ==================================== */
+
+ul.language-switcher ul.dropdown-menu {
+  left: -136px;
+}
+.dropdown-menu .divider {
+  height: 2px;
+}
+.navbar li.item-112:hover .dropdown-menu,
+.navbar-lang li.dropdown:hover .dropdown-menu,
+.navbar-nav li.item-119:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu > li > a {
+  padding: 10px 20px !important;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 50px !important;
+}
+.navbar-lang li a {
+  text-transform: capitalize;
+}
+.navbar .navbar-lang {
+  margin-right: 0;
+}
+
+#particles-js {
+  height: 340px;
+  background-image: url("/Madinah.JPG");
+  background-size: contain;
+}
+
+input.searchbar__input[type="text"] {
+  display: inline-block;
+  height: 40px;
+  padding-left: 20px;
+  margin: auto 0;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+input.searchbar__input::placeholder {
+  font-size: 16px;
+  color: #666;
+}
+
+.search__block {
+  position: relative;
+}
+@media (max-width: 990px) {
+  .search__block__input {
+    margin-bottom: 15px;
+  }
+  .searchbar__form {
+    border-radius: 4px !important;
+    margin-top: -60px;
+    width: 100% !important;
+  }
+}
+div.searchbar {
+  height: 0px;
+}
+.searchbar__form {
+  background: #00000033;
+  padding: 30px 40px;
+  border-radius: 90px;
+  width: 100%;
+  margin-top: -155px;
+}
+
+button.searchbar__button[type="submit"] {
+  border: none;
+  outline: inherit;
+  background-color: #0083bc;
+  color: #fff;
+  border-radius: 4rem;
+  line-height: 28px;
+  margin-left: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
+  transition: 0.15s;
+}
+button.searchbar__button:hover {
+  background: #b9d9eb;
+}
+.btn-light-blue {
+  background: #b9d9eb;
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: 350px;
+}
+/* homepage1 */
+
+.homepage.layout-1 .row1 .col2,
+.homepage.layout-1 .row2 .col2 {
+  position: relative;
+}
+.row1 {
+  position: relative;
+}
+
+.homepage.layout-2 .row1 .col2 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.homepage.layout-2 .row1 .col1 .chart {
+  position: relative;
+}
+
+.homepage.layout-2 .row1 .col1 .key {
+  position: absolute;
+  width: auto;
+  text-align: left;
+}
+@media (min-width: 992px) {
+  .homepage [role="main"] {
+    padding: 20px 0;
+  }
+  .homepage.layout-2 .row1 .col {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .homepage.layout-2 .row1 .col2 .module-search {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.key ul {
+  position: relative;
+  float: left;
+  list-style: none;
+  left: 15%;
+  border-collapse: separate;
+}
+.key li {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.key a {
+  text-decoration: none;
+  margin: 10px;
+  float: left;
+  color: #333333;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.percent {
+  color: white;
+  padding: 10px 2px;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+}
+.choice {
+  padding-left: 10px;
+}
+.dark_blue {
+  background-color: #171b4a;
+}
+.generic_grey {
+  background-color: #86869d;
+}
+.light_grey {
+  background-color: #c8c8d0;
+}
+
+@media (max-width: 767px) {
+  .homepage.layout-1 .row1 .col1 {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row1 .col1,
+  .row2 .col1 {
+    margin-bottom: 20px;
+  }
+}
+
+.header__title {
+  background-color: transparent;
+  color: #fff;
+  position: relative;
+}
+.header__title h1 {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  margin-top: 85px;
+}
+@media (max-width: 767px) {
+  .header__title h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    margin-top: 60px;
+  }
+  .header__title span {
+    display: none;
+  }
+  body > .homepage {
+    padding-top: 0px !important;
+  }
+}
+.header__title span {
+  opacity: 0.8;
+}
+@media (max-width: 1020px) {
+  .header__logo.col-md-3 {
+    display: none;
+  }
+}
+
+/* Buttons */
+
+div.follow_button > a,
+div.follow_button > a:hover {
+  background-color: #0f9cd9;
+  border: none;
+}
+
+.page_primary_action > a.btn.btn-primary {
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.btn-primary {
+  background-color: #0f9cd9 !important;
+  border: none !important;
+  border-radius: 5em !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.btn {
+  border: none;
+  outline: inherit;
+  border-radius: 4rem;
+  line-height: 28px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.control-custom .checkbox.btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 5px;
+  height: 1px;
+  width: 28px;
+  padding: 2px 7px;
+  line-height: 18px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #0f9cd9;
+  border-color: #0f9cd9;
+}
+
+.card {
+  --card-gradient: rgba(0, 0, 0, 0.8);
+  --card-gradient: #e3eff7, #b8e2f6;
+  --card-blend-mode: overlay;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  min-height: 205px;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  background-image: linear-gradient(
+    var(--card-gradient),
+    white max(9.5rem, 27vh)
+  );
+  overflow: hidden;
+}
+.card img {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-height: max(10rem, 30vh);
+  aspect-ratio: 4/3;
+}
+.card img ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card > :last-child {
+  margin-bottom: 0;
+}
+.card:hover,
+.card:focus-within {
+  --card-gradient: #e3eff7 max(8.5rem, 20vh);
+}
+
+/* Additional demo display styles */
+* {
+  box-sizing: border-box;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.card p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card h3.count {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card-wrapper {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1.5rem;
+  max-width: 100vw;
+  width: 80ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.screen-1 {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  gap: 2em;
+}
+.screen-1 .login-logo {
+  display: block;
+  margin: 10px auto 50px auto;
+}
+.screen-1 .email {
+  box-shadow: 0 0 1em #d0d0d0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #000;
+  margin-top: -3em;
+}
+.screen-1 .email input {
+  outline: none;
+  border: none;
+}
+.screen-1 .email input::placeholder {
+  color: #000;
+  font-size: 0.9em;
+}
+.screen-1 .email ion-icon {
+  color: #000;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password {
+  box-shadow: 0 0 1em #d0d0d0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #000;
+}
+.screen-1 .password input {
+  outline: none;
+  border: none;
+}
+.screen-1 .password input::placeholder {
+  color: #000;
+  font-size: 0.9em;
+}
+.screen-1 .password ion-icon {
+  color: #000;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+.screen-1 .login {
+  padding: 1em;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.screen-1 .login-footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #000;
+  gap: 14em;
+  padding-bottom: 10em;
+}
+.screen-1 .login-footer span {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
