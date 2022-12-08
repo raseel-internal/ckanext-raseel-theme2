@@ -1,5 +1,10 @@
-{% ckan_extends %} {% block custom_styles %} {{ super() }}
+{% ckan_extends %} {% set current_lang = request.environ.CKAN_LANG %} {% set
+current_url = request.environ.CKAN_CURRENT_URL %} {% block custom_styles %} {{
+super() }} {% if current_lang == "en" %}
 <link rel="stylesheet" href="/raseel_theme.css" />
-{% endblock %} {% block links %}
+{% else %}
+<link rel="stylesheet" href="/raseel_theme-rtl.css" />
+{% endif %} {% endblock %} {% block links %}
+
 <link rel="shortcut icon" href="/raseel-favicon.png" />
 {% endblock %} {% block body_extras %} {{ super() }} {% endblock %}

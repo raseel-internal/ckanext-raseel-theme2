@@ -146,12 +146,14 @@ a {
   background-color: #ffffff;
 }
 .masthead .navigation.section {
-  float: left;
+  direction: rtl;
+  float: right;
   position: relative;
   width: 700px;
 }
 @media (min-width: 500px) and (max-width: 1000px) {
   .masthead .navigation.section {
+    direction: rtl;
     float: right;
     width: 700px;
   }
@@ -166,9 +168,17 @@ a {
   background-color: #ffffff;
   color: #393939;
 }
+.masthead .navigation .raseel-logo {
+  width: 150px;
+  height: 45px;
+  padding-left: 20px;
+  object-fit: cover;
+  object-position: right;
+}
 
 .masthead .navigation a {
-  float: left;
+  float: right;
+  direction: rtl;
   position: relative;
   width: fit-content;
 }
@@ -176,6 +186,7 @@ a {
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
+  float: right;
   background-color: #ffffff;
   width: fit-content;
   position: relative;
