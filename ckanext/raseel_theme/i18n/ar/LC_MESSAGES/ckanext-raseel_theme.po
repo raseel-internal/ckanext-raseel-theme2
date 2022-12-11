@@ -1,0 +1,337 @@
+# Arabic translations for ckanext-raseel-theme2.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-raseel-theme2
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-12-11 09:09+0000\n"
+"PO-Revision-Date: 2022-12-11 09:09+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/raseel_theme/templates/header.html:16
+msgid "View profile"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:28
+#, python-format
+msgid ""
+"Dashboard (%(num)d new\n"
+"          item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ckanext/raseel_theme/templates/header.html:35
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:43
+#: ckanext/raseel_theme/templates/header.html:46
+msgid "Profile settings"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:52
+#: ckanext/raseel_theme/templates/header.html:54
+msgid "Log out"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:62
+msgid "Account"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:66
+msgid "Log in"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:90
+msgid "Toggle navigation"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:106
+msgid "Home"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:107
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:107
+msgid "Organizations"
+msgstr "الناشرون"
+
+#: ckanext/raseel_theme/templates/header.html:108
+msgid "Groups"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:122
+msgid "Search Datasets"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:130
+#: ckanext/raseel_theme/templates/home/snippets/search.html:24
+msgid "Search"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:131
+msgid "Search datasets"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/header.html:136
+msgid "Submit"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/group/snippets/group_item.html:26
+#: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:27
+msgid "{num} Dataset"
+msgid_plural "{num} Datasets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ckanext/raseel_theme/templates/group/snippets/group_item.html:30
+#: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:32
+msgid "0 Datasets"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/group/snippets/group_item.html:34
+msgid "Remove"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/group/snippets/group_item.html:37
+msgid "Remove dataset from this group"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/group/snippets/helper.html:4
+msgid "What are Groups?"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/group/snippets/helper.html:8
+msgid ""
+"You can use Groups to create and manage collections of datasets. This "
+"could be to catalogue datasets for a particular project or team, or on a "
+"particular theme, or as a very simple way to help people find and search "
+"your own published datasets."
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/about.html:3
+#: ckanext/raseel_theme/templates/home/about.html:6
+#: ckanext/raseel_theme/templates/home/about.html:16
+msgid "About"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/index.html:2
+msgid "Welcome"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/about_text.html:1
+msgid ""
+"<p>CKAN is the world’s leading open-source data portal platform.</p> "
+"<p>CKAN is a complete out-of-the-box software solution that makes data "
+"accessible and usable – by providing tools to streamline publishing, "
+"sharing, finding and using data (including storage of data and provision "
+"of robust data APIs). CKAN is aimed at data publishers (national and "
+"regional governments, companies and organizations) wanting to make their "
+"data open and available.</p> <p>CKAN is used by governments and user "
+"groups worldwide and powers a variety of official and community data "
+"portals including portals for local, national and international "
+"government, such as the UK’s <a "
+"href=\"http://data.gov.uk\">data.gov.uk</a> and the European Union’s <a "
+"href=\"http://publicdata.eu/\">publicdata.eu</a>, the Brazilian <a "
+"href=\"http://dados.gov.br/\">dados.gov.br</a>, Dutch and Netherland "
+"government portals, as well as city and municipal sites in the US, UK, "
+"Argentina, Finland and elsewhere.</p> <p>CKAN: <a "
+"href=\"http://ckan.org/\">http://ckan.org/</a><br /> CKAN Tour: <a "
+"href=\"http://ckan.org/tour/\">http://ckan.org/tour/</a><br /> Features "
+"overview: <a "
+"href=\"http://ckan.org/features/\">http://ckan.org/features/</a></p>"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/catalogue.html:4
+msgid "Datasets Catalogue"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/promoted.html:7
+msgid "Welcome to Raseel Open Data Platform"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/promoted.html:10
+msgid ""
+"This is a nice introductory paragraph about Raseel open data platform or "
+"the site in general. We don't have any copy to go here yet but soon we "
+"will"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/promoted.html:20
+msgid "This is a featured section"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:31
+msgid "Private"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:40
+msgid "Draft"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:42
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:53
+msgid "This dataset has no description"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:59
+msgid "Popular"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/search.html:2
+msgid "eg. Gold Prices"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/search.html:16
+msgid "Search Your Data"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:3
+msgid "Statistics"
+msgstr "إحصائيات"
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:15
+msgid "dataset"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:15
+msgid "datasets"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:23
+msgid "organization"
+msgstr "ناشر"
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:24
+msgid "organizations"
+msgstr "ناشرون"
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:32
+msgid "group"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/home/snippets/stats.html:32
+msgid "groups"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/organization/snippets/helper.html:4
+msgid "What are Organizations?"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/organization/snippets/helper.html:8
+msgid ""
+"Organizations are used to create, manage and publish collections of "
+"datasets. Users can have different roles within an Organization, "
+"depending on their level of authorisation to create, edit and publish."
+msgstr ""
+
+#: ckanext/raseel_theme/templates/package/base_form_page.html:15
+msgid "What are datasets?"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/package/base_form_page.html:19
+msgid ""
+"Raseel open data platform Dataset is a collection of data resources (such"
+" as files), together with a description and other information, at a fixed"
+" URL. Datasets are what users see when searching for data."
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/login.html:2
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:45
+msgid "Login"
+msgstr "تسجيل"
+
+#: ckanext/raseel_theme/templates/user/new.html:1
+msgid "Register"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new.html:4
+msgid "Registration"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new.html:11
+msgid "Register for an Account"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:58
+msgid "Profile picture"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:58
+msgid "Profile picture URL"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:71
+msgid "Create Account"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/perform_reset.html:2
+#: ckanext/raseel_theme/templates/user/perform_reset.html:10
+msgid "Reset Your Password"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/perform_reset.html:4
+#: ckanext/raseel_theme/templates/user/request_reset.html:4
+msgid "Password Reset"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/perform_reset.html:18
+msgid "You can also change username. It can not be modified later."
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/perform_reset.html:61
+msgid "Update Password"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/request_reset.html:1
+#: ckanext/raseel_theme/templates/user/request_reset.html:10
+msgid "Reset your password"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/request_reset.html:15
+msgid "Email or username"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/request_reset.html:24
+msgid "Request Reset"
+msgstr "طلب إعادة تعيين"
+
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
+msgid "Remember me"
+msgstr "تذكرني"
+
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:53
+msgid "Sign up"
+msgstr "تسجيل دخول"
+
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:60
+msgid "Forgot your password?"
+msgstr "نسيت كلمة مرورك"
+
