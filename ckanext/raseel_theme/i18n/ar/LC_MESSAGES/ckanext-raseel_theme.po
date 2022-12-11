@@ -23,7 +23,7 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/header.html:16
 msgid "View profile"
-msgstr ""
+msgstr "عرض الملف الشخصي"
 
 #: ckanext/raseel_theme/templates/header.html:28
 #, python-format
@@ -31,34 +31,34 @@ msgid ""
 "Dashboard (%(num)d new\n"
 "          item)"
 msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[1] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[2] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[3] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[4] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[5] "لوحة المعلومات (%(num)d عناصر جديدة )"
 
 #: ckanext/raseel_theme/templates/header.html:35
 msgid "Dashboard"
-msgstr ""
+msgstr "لوحة المعلومات"
 
 #: ckanext/raseel_theme/templates/header.html:43
 #: ckanext/raseel_theme/templates/header.html:46
 msgid "Profile settings"
-msgstr ""
+msgstr "إعدادات الملف الشخصي"
 
 #: ckanext/raseel_theme/templates/header.html:52
 #: ckanext/raseel_theme/templates/header.html:54
 msgid "Log out"
-msgstr ""
+msgstr "تسجيل خروج"
 
 #: ckanext/raseel_theme/templates/header.html:62
 msgid "Account"
-msgstr ""
+msgstr "الحساب"
 
 #: ckanext/raseel_theme/templates/header.html:66
 msgid "Log in"
-msgstr ""
+msgstr "تسجيل دخول"
 
 #: ckanext/raseel_theme/templates/header.html:90
 msgid "Toggle navigation"
@@ -66,11 +66,11 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/header.html:106
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: ckanext/raseel_theme/templates/header.html:107
 msgid "Datasets"
-msgstr ""
+msgstr "مجموعات البيانات"
 
 #: ckanext/raseel_theme/templates/header.html:107
 msgid "Organizations"
@@ -78,20 +78,20 @@ msgstr "الناشرون"
 
 #: ckanext/raseel_theme/templates/header.html:108
 msgid "Groups"
-msgstr ""
+msgstr "التصنيفات"
 
 #: ckanext/raseel_theme/templates/header.html:122
 msgid "Search Datasets"
-msgstr ""
+msgstr "البحث عن البيانات"
 
 #: ckanext/raseel_theme/templates/header.html:130
 #: ckanext/raseel_theme/templates/home/snippets/search.html:24
 msgid "Search"
-msgstr ""
+msgstr "البحث"
 
 #: ckanext/raseel_theme/templates/header.html:131
 msgid "Search datasets"
-msgstr ""
+msgstr "البحث عن البيانات"
 
 #: ckanext/raseel_theme/templates/header.html:136
 msgid "Submit"
@@ -111,19 +111,19 @@ msgstr[5] ""
 #: ckanext/raseel_theme/templates/group/snippets/group_item.html:30
 #: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:32
 msgid "0 Datasets"
-msgstr ""
+msgstr "0 بيانات"
 
 #: ckanext/raseel_theme/templates/group/snippets/group_item.html:34
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 #: ckanext/raseel_theme/templates/group/snippets/group_item.html:37
 msgid "Remove dataset from this group"
-msgstr ""
+msgstr "إزالة بيانات من هذا التصنيف"
 
 #: ckanext/raseel_theme/templates/group/snippets/helper.html:4
 msgid "What are Groups?"
-msgstr ""
+msgstr "ماهي التصنيفات ؟"
 
 #: ckanext/raseel_theme/templates/group/snippets/helper.html:8
 msgid ""
@@ -137,11 +137,11 @@ msgstr ""
 #: ckanext/raseel_theme/templates/home/about.html:6
 #: ckanext/raseel_theme/templates/home/about.html:16
 msgid "About"
-msgstr ""
+msgstr "عن"
 
 #: ckanext/raseel_theme/templates/home/index.html:2
 msgid "Welcome"
-msgstr ""
+msgstr "مرحبا"
 
 #: ckanext/raseel_theme/templates/home/snippets/about_text.html:1
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:7
 msgid "Welcome to Raseel Open Data Platform"
-msgstr ""
+msgstr "مرحبًا بكم في منصة البيانات المفتوحة لرسيل"
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:10
 msgid ""
@@ -187,23 +187,23 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:31
 msgid "Private"
-msgstr ""
+msgstr "خاص"
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:40
 msgid "Draft"
-msgstr ""
+msgstr "مسودة"
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:42
 msgid "Deleted"
-msgstr ""
+msgstr "محذوف"
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:53
 msgid "This dataset has no description"
-msgstr ""
+msgstr "لا تحتوي مجموعة البيانات هذه على وصف"
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:59
 msgid "Popular"
-msgstr ""
+msgstr "شعبي"
 
 #: ckanext/raseel_theme/templates/home/snippets/search.html:2
 msgid "eg. Gold Prices"
@@ -219,11 +219,11 @@ msgstr "إحصائيات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "dataset"
-msgstr ""
+msgstr "مجموعة البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "datasets"
-msgstr ""
+msgstr "مجموعة البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:23
 msgid "organization"
@@ -235,26 +235,26 @@ msgstr "ناشرون"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:32
 msgid "group"
-msgstr ""
+msgstr "تصنيف"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:32
 msgid "groups"
-msgstr ""
+msgstr "تصنيفات"
 
 #: ckanext/raseel_theme/templates/organization/snippets/helper.html:4
 msgid "What are Organizations?"
-msgstr ""
+msgstr "من هم الناشرون ؟" 
 
 #: ckanext/raseel_theme/templates/organization/snippets/helper.html:8
 msgid ""
 "Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, "
 "depending on their level of authorisation to create, edit and publish."
-msgstr ""
+msgstr " دور الناشرون إنشاء مجموعات البيانات وإدارتها ونشرها. يمكن أن يكون للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء والتعديل والنشر."
 
 #: ckanext/raseel_theme/templates/package/base_form_page.html:15
 msgid "What are datasets?"
-msgstr ""
+msgstr "ما هي مجموعات البيانات؟"
 
 #: ckanext/raseel_theme/templates/package/base_form_page.html:19
 msgid ""
@@ -290,34 +290,35 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:71
 msgid "Create Account"
-msgstr ""
+msgstr "إنشاء حساب"
 
 #: ckanext/raseel_theme/templates/user/perform_reset.html:2
 #: ckanext/raseel_theme/templates/user/perform_reset.html:10
 msgid "Reset Your Password"
-msgstr ""
+msgstr "اعد ضبط كلمة السر"
+
 
 #: ckanext/raseel_theme/templates/user/perform_reset.html:4
 #: ckanext/raseel_theme/templates/user/request_reset.html:4
 msgid "Password Reset"
-msgstr ""
+msgstr "إعادة تعيين كلمة المرور"
 
 #: ckanext/raseel_theme/templates/user/perform_reset.html:18
 msgid "You can also change username. It can not be modified later."
-msgstr ""
+msgstr "يمكنك أيضا تغيير اسم المستخدم. لا يمكن تعديله لاحقًا."
 
 #: ckanext/raseel_theme/templates/user/perform_reset.html:61
 msgid "Update Password"
-msgstr ""
+msgstr "تغيير كلمة السر"
 
 #: ckanext/raseel_theme/templates/user/request_reset.html:1
 #: ckanext/raseel_theme/templates/user/request_reset.html:10
 msgid "Reset your password"
-msgstr ""
+msgstr "اعد ضبط كلمة السر"
 
 #: ckanext/raseel_theme/templates/user/request_reset.html:15
 msgid "Email or username"
-msgstr ""
+msgstr "البريد الإلكتروني أو اسم المستخدم"
 
 #: ckanext/raseel_theme/templates/user/request_reset.html:24
 msgid "Request Reset"
