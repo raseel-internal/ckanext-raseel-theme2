@@ -121,12 +121,12 @@ msgstr "إرسال"
 #: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:27
 msgid "{num} Dataset"
 msgid_plural "{num} Datasets"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "{num} مجموعات البيانات"
+msgstr[1] "{num} مجموعات البيانات"
+msgstr[2] "{num} مجموعات البيانات"
+msgstr[3] "{num} مجموعات البيانات"
+msgstr[4] "{num} مجموعات البيانات"
+msgstr[5] "{num} مجموعات البيانات"
 
 #: ckanext/raseel_theme/templates/group/snippets/group_item.html:30
 #: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:32
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/catalogue.html:4
 msgid "Datasets Catalogue"
-msgstr ""
+msgstr "قائمة البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:7
 msgid "Welcome to Raseel Open Data Platform"
@@ -281,7 +281,7 @@ msgid ""
 "Raseel open data platform Dataset is a collection of data resources (such"
 " as files), together with a description and other information, at a fixed"
 " URL. Datasets are what users see when searching for data."
-msgstr ""
+msgstr "مجموعة البيانات الخاصة بمنصة البيانات المفتوحة لرسيل هي مجموعة من موارد البيانات (مثل الملفات) ، جنبًا إلى جنب مع الوصف والمعلومات الأخرى ، على عنوان URL ثابت. مجموعات البيانات هي ما يراه المستخدمون عند البحث عن البيانات."
 
 #: ckanext/raseel_theme/templates/user/login.html:2
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:45
