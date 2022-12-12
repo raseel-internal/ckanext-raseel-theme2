@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-11 09:09+0000\n"
-"PO-Revision-Date: 2022-12-11 09:09+0000\n"
+"POT-Creation-Date: 2022-12-12 08:25+0000\n"
+"PO-Revision-Date: 2022-12-12 08:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
 "Language-Team: ar <LL@li.org>\n"
@@ -20,6 +20,26 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+
+#: ckanext/raseel_theme/templates/footer.html:16
+msgid "Who we are ?"
+msgstr "من نحن"
+
+#: ckanext/raseel_theme/templates/footer.html:20
+msgid "Madinah Development Authority"
+msgstr "هيئة تطوير المدينة"
+
+#: ckanext/raseel_theme/templates/footer.html:24
+msgid "Team"
+msgstr "فريقنا"
+
+#: ckanext/raseel_theme/templates/footer.html:27
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+#: ckanext/raseel_theme/templates/footer.html:30
+msgid "Raseel | Madinah Smart City Platform"
+msgstr "رسيل | منصة المدينة الذكية بالمدينة المنورة"
 
 #: ckanext/raseel_theme/templates/header.html:16
 msgid "View profile"
@@ -31,7 +51,7 @@ msgid ""
 "Dashboard (%(num)d new\n"
 "          item)"
 msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0] "لوحة المعلومات (%(num)d عناصر جديدة )"
+msgstr[0]  "لوحة المعلومات (%(num)d عنصر جديد )"
 msgstr[1] "لوحة المعلومات (%(num)d عناصر جديدة )"
 msgstr[2] "لوحة المعلومات (%(num)d عناصر جديدة )"
 msgstr[3] "لوحة المعلومات (%(num)d عناصر جديدة )"
@@ -95,7 +115,7 @@ msgstr "البحث عن البيانات"
 
 #: ckanext/raseel_theme/templates/header.html:136
 msgid "Submit"
-msgstr ""
+msgstr "إرسال"
 
 #: ckanext/raseel_theme/templates/group/snippets/group_item.html:26
 #: ckanext/raseel_theme/templates/organization/snippets/organization_item.html:27
@@ -211,15 +231,15 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/search.html:16
 msgid "Search Your Data"
-msgstr ""
+msgstr "البحث عن البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:3
 msgid "Statistics"
-msgstr "إحصائيات"
+msgstr "الإحصائيات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "dataset"
-msgstr "مجموعة البيانات"
+msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "datasets"
@@ -227,30 +247,30 @@ msgstr "مجموعة البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:23
 msgid "organization"
-msgstr "ناشر"
+msgstr "الناشر"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:24
 msgid "organizations"
-msgstr "ناشرون"
+msgstr "الناشرون"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:32
 msgid "group"
-msgstr "تصنيف"
+msgstr "التصنيف"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:32
 msgid "groups"
-msgstr "تصنيفات"
+msgstr "التصنيفات"
 
 #: ckanext/raseel_theme/templates/organization/snippets/helper.html:4
 msgid "What are Organizations?"
-msgstr "من هم الناشرون ؟" 
+msgstr "من هم الناشرون؟"
 
 #: ckanext/raseel_theme/templates/organization/snippets/helper.html:8
 msgid ""
 "Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, "
 "depending on their level of authorisation to create, edit and publish."
-msgstr " دور الناشرون إنشاء مجموعات البيانات وإدارتها ونشرها. يمكن أن يكون للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء والتعديل والنشر."
+msgstr  "دور الناشرون إنشاء مجموعات البيانات وإدارتها ونشرها. يمكن أن يكون للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء والتعديل والنشر."
 
 #: ckanext/raseel_theme/templates/package/base_form_page.html:15
 msgid "What are datasets?"
@@ -266,27 +286,27 @@ msgstr ""
 #: ckanext/raseel_theme/templates/user/login.html:2
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:45
 msgid "Login"
-msgstr "تسجيل"
+msgstr ""
 
 #: ckanext/raseel_theme/templates/user/new.html:1
 msgid "Register"
-msgstr ""
+msgstr "تسجيل"
 
 #: ckanext/raseel_theme/templates/user/new.html:4
 msgid "Registration"
-msgstr ""
+msgstr "تسجيل حساب"
 
 #: ckanext/raseel_theme/templates/user/new.html:11
 msgid "Register for an Account"
-msgstr ""
+msgstr "تسجيل حساب"
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:58
 msgid "Profile picture"
-msgstr ""
+msgstr "الصوره الشخصيه"
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:58
 msgid "Profile picture URL"
-msgstr ""
+msgstr "URL لصورة الملف الشخصي"
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:71
 msgid "Create Account"
@@ -295,8 +315,7 @@ msgstr "إنشاء حساب"
 #: ckanext/raseel_theme/templates/user/perform_reset.html:2
 #: ckanext/raseel_theme/templates/user/perform_reset.html:10
 msgid "Reset Your Password"
-msgstr "اعد ضبط كلمة السر"
-
+msgstr "اعد ضبط كلمه السر"
 
 #: ckanext/raseel_theme/templates/user/perform_reset.html:4
 #: ckanext/raseel_theme/templates/user/request_reset.html:4
@@ -314,7 +333,7 @@ msgstr "تغيير كلمة السر"
 #: ckanext/raseel_theme/templates/user/request_reset.html:1
 #: ckanext/raseel_theme/templates/user/request_reset.html:10
 msgid "Reset your password"
-msgstr "اعد ضبط كلمة السر"
+msgstr "اعد ضبط كلمه السر"
 
 #: ckanext/raseel_theme/templates/user/request_reset.html:15
 msgid "Email or username"
@@ -326,13 +345,13 @@ msgstr "طلب إعادة تعيين"
 
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
 msgid "Remember me"
-msgstr "تذكرني"
+msgstr "تذكرنى"
 
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:53
 msgid "Sign up"
-msgstr "تسجيل دخول"
+msgstr "إنشاء حساب"
 
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:60
 msgid "Forgot your password?"
-msgstr "نسيت كلمة مرورك"
+msgstr "نسيت كلمة مرورك ؟"
 

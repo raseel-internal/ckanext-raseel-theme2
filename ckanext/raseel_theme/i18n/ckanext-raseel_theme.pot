@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-11 09:09+0000\n"
+"POT-Creation-Date: 2022-12-12 08:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+
+#: ckanext/raseel_theme/templates/footer.html:16
+msgid "Who we are ?"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/footer.html:20
+msgid "Madinah Development Authority"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/footer.html:24
+msgid "Team"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/footer.html:27
+msgid "Contact Us"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/footer.html:30
+msgid "Raseel | Madinah Smart City Platform"
+msgstr ""
 
 #: ckanext/raseel_theme/templates/header.html:16
 msgid "View profile"
