@@ -144,6 +144,7 @@ a {
 
 .masthead {
   background-color: #ffffff;
+  padding: 15px 0;
 }
 .masthead .navigation.section {
   direction: rtl;
@@ -444,20 +445,20 @@ button.searchbar__button:hover {
 }
 .key ul {
   position: relative;
-  float: left;
+  float: right;
+  direction: rtl;
   list-style: none;
-  left: 15%;
+  right: 15%;
   border-collapse: separate;
 }
 .key li {
   display: inline-block;
-  float: left;
   position: relative;
 }
 .key a {
   text-decoration: none;
   margin: 10px;
-  float: left;
+  float: right;
   color: #333333;
   text-align: center;
   white-space: nowrap;
