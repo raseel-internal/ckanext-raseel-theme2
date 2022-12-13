@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-12 08:25+0000\n"
+"POT-Creation-Date: 2022-12-13 10:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,8 +184,9 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:10
 msgid ""
-"This is a nice introductory paragraph about Raseel open data platform or the "
-"site in general. We don't have any copy to go here yet but soon we will"
+"Raseel Open data platform is the online portal for open data of Madinah Smart"
+" City. It allows organizations and entities to publish public data and let "
+"various kinds of users to access it."
 msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:20
@@ -270,8 +271,20 @@ msgid ""
 "Datasets are what users see when searching for data."
 msgstr ""
 
+#: ckanext/raseel_theme/templates/user/edit.html:3
+msgid "Users"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/edit.html:9
+msgid "Manage"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/edit.html:14
+msgid "Account Info"
+msgstr ""
+
 #: ckanext/raseel_theme/templates/user/login.html:2
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:45
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
 msgid "Login"
 msgstr ""
 
@@ -330,15 +343,15 @@ msgstr ""
 msgid "Request Reset"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:41
 msgid "Remember me"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:53
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:51
 msgid "Sign up"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:60
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:58
 msgid "Forgot your password?"
 msgstr ""
 

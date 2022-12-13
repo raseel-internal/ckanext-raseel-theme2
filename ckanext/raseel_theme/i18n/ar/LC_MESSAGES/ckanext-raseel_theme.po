@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-12 08:25+0000\n"
+"POT-Creation-Date: 2022-12-13 10:34+0000\n"
 "PO-Revision-Date: 2022-12-12 08:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -51,7 +51,7 @@ msgid ""
 "Dashboard (%(num)d new\n"
 "          item)"
 msgid_plural "Dashboard (%(num)d new items)"
-msgstr[0]  "لوحة المعلومات (%(num)d عنصر جديد )"
+msgstr[0] "لوحة المعلومات (%(num)d عنصر جديد )"
 msgstr[1] "لوحة المعلومات (%(num)d عناصر جديدة )"
 msgstr[2] "لوحة المعلومات (%(num)d عناصر جديدة )"
 msgstr[3] "لوحة المعلومات (%(num)d عناصر جديدة )"
@@ -151,7 +151,11 @@ msgid ""
 "could be to catalogue datasets for a particular project or team, or on a "
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets."
-msgstr "يمكنك استخدام التصنيفات لإنشاء تصنيفات من مجموعات البيانات وإدارتها. قد يكون هذا بمثابة فهرسة لمجموعات البيانات لمشروع أو فريق معين ، أو حول موضوع معين ، أو كطريقة بسيطة للغاية لمساعدة الأشخاص في العثور على مجموعات البيانات المنشورة الخاصة بك والبحث فيها."
+msgstr ""
+"يمكنك استخدام التصنيفات لإنشاء تصنيفات من مجموعات البيانات وإدارتها. قد "
+"يكون هذا بمثابة فهرسة لمجموعات البيانات لمشروع أو فريق معين ، أو حول "
+"موضوع معين ، أو كطريقة بسيطة للغاية لمساعدة الأشخاص في العثور على مجموعات"
+" البيانات المنشورة الخاصة بك والبحث فيها."
 
 #: ckanext/raseel_theme/templates/home/about.html:3
 #: ckanext/raseel_theme/templates/home/about.html:6
@@ -196,10 +200,10 @@ msgstr "مرحبًا بكم في منصة البيانات المفتوحة لر
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:10
 msgid ""
-"This is a nice introductory paragraph about Raseel open data platform or "
-"the site in general. We don't have any copy to go here yet but soon we "
-"will"
-msgstr ""
+"Raseel Open data platform is the online portal for open data of Madinah "
+"Smart City. It allows organizations and entities to publish public data "
+"and let various kinds of users to access it."
+msgstr "منصة رسيل للبيانات المفتوحة هي البوابة الإلكترونية للبيانات المفتوحة لمنصة المدينة الذكية للمدينة المنورة ، فهي تمكن المؤسسات والكيانات بنشر بيانات العامة والسماح لكل فئات المستخدمين بالوصول إليها."
 
 #: ckanext/raseel_theme/templates/home/snippets/promoted.html:20
 msgid "This is a featured section"
@@ -239,11 +243,11 @@ msgstr "الإحصائيات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "dataset"
-msgstr ""
+msgstr "مجموعة البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:15
 msgid "datasets"
-msgstr "مجموعة البيانات"
+msgstr "مجموعات البيانات"
 
 #: ckanext/raseel_theme/templates/home/snippets/stats.html:23
 msgid "organization"
@@ -270,7 +274,10 @@ msgid ""
 "Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, "
 "depending on their level of authorisation to create, edit and publish."
-msgstr  "دور الناشرون إنشاء مجموعات البيانات وإدارتها ونشرها. يمكن أن يكون للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء والتعديل والنشر."
+msgstr ""
+"دور الناشرون إنشاء مجموعات البيانات وإدارتها ونشرها. يمكن أن يكون "
+"للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء"
+" والتعديل والنشر."
 
 #: ckanext/raseel_theme/templates/package/base_form_page.html:15
 msgid "What are datasets?"
@@ -281,10 +288,28 @@ msgid ""
 "Raseel open data platform Dataset is a collection of data resources (such"
 " as files), together with a description and other information, at a fixed"
 " URL. Datasets are what users see when searching for data."
-msgstr "مجموعة البيانات الخاصة بمنصة البيانات المفتوحة لرسيل هي مجموعة من موارد البيانات (مثل الملفات) ، جنبًا إلى جنب مع الوصف والمعلومات الأخرى ، على عنوان URL ثابت. مجموعات البيانات هي ما يراه المستخدمون عند البحث عن البيانات."
+msgstr ""
+"مجموعة البيانات الخاصة بمنصة البيانات المفتوحة لرسيل هي مجموعة من موارد "
+"البيانات (مثل الملفات) ، جنبًا إلى جنب مع الوصف والمعلومات الأخرى ، على "
+"عنوان URL ثابت. مجموعات البيانات هي ما يراه المستخدمون عند البحث عن "
+"البيانات."
+
+#: ckanext/raseel_theme/templates/user/edit.html:3
+msgid "Users"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/edit.html:9
+msgid "Manage"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/edit.html:14
+#, fuzzy
+#| msgid "Account"
+msgid "Account Info"
+msgstr "الحساب"
 
 #: ckanext/raseel_theme/templates/user/login.html:2
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:45
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
 msgid "Login"
 msgstr ""
 
@@ -343,15 +368,23 @@ msgstr "البريد الإلكتروني أو اسم المستخدم"
 msgid "Request Reset"
 msgstr "طلب إعادة تعيين"
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:41
 msgid "Remember me"
 msgstr "تذكرنى"
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:53
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:51
 msgid "Sign up"
 msgstr "إنشاء حساب"
 
-#: ckanext/raseel_theme/templates/user/snippets/login_form.html:60
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:58
 msgid "Forgot your password?"
 msgstr "نسيت كلمة مرورك ؟"
+
+#~ msgid ""
+#~ "This is a nice introductory paragraph"
+#~ " about Raseel open data platform or"
+#~ " the site in general. We don't "
+#~ "have any copy to go here yet "
+#~ "but soon we will"
+#~ msgstr ""
 
