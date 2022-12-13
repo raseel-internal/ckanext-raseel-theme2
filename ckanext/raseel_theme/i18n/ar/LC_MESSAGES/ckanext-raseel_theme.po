@@ -151,7 +151,7 @@ msgid ""
 "could be to catalogue datasets for a particular project or team, or on a "
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets."
-msgstr ""
+msgstr "يمكنك استخدام التصنيفات لإنشاء تصنيفات من مجموعات البيانات وإدارتها. قد يكون هذا بمثابة فهرسة لمجموعات البيانات لمشروع أو فريق معين ، أو حول موضوع معين ، أو كطريقة بسيطة للغاية لمساعدة الأشخاص في العثور على مجموعات البيانات المنشورة الخاصة بك والبحث فيها."
 
 #: ckanext/raseel_theme/templates/home/about.html:3
 #: ckanext/raseel_theme/templates/home/about.html:6
