@@ -79,6 +79,12 @@
   {% endif %} {% endblock %}
   <div class="container">
     <div class="navbar-right">
+      <a class="logo" href="https://www.gov.sg">
+        <img
+          src="/madinah_logo.png"
+          alt="Madinah Development Authority"
+          title="Madinah Development Authority"
+      /></a>
       <button
         data-target="#main-navigation-toggle"
         data-toggle="collapse"
@@ -87,30 +93,35 @@
         aria-label="expand or collapse"
         aria-expanded="false"
       >
+        <i class="fa-solid fa-bars"></i>
         <span class="sr-only">{{ _('Toggle navigation') }}</span>
-        <span class="fa fa-bars"></span>
       </button>
-      <a class="logo" href="https://www.gov.sg">
-        <img
-          src="/madinah_logo.png"
-          alt="Madinah Development Authority"
-          title="Madinah Development Authority"
-      /></a>
     </div>
-    <hgroup class="navbar-left">
-      <nav class="section navigation">
-        <a href="{{ h.url_for('home.index') }}"
-          ><img class="raseel-logo" src="/Raseel.png"
-        /></a>
-        <ul class="nav nav-pills">
-          {{ h.build_nav_main(('home.index', _('Home')), ('dataset.search',
-          _('Datasets')), ('organization.index', _('Organizations')),
-          ('group.index', _('Groups'))) }}
-        </ul>
-      </nav>
-    </hgroup>
 
     <div class="collapse navbar-collapse" id="main-navigation-toggle">
+      <hgroup class="navbar-left">
+        <button
+          data-target="#main-navigation-toggle"
+          data-toggle="collapse"
+          class="navbar-toggle collapsed"
+          type="button"
+          aria-label="expand or collapse"
+          aria-expanded="false"
+        >
+          <span class="fa fa-bars"></span>
+          <span class="sr-only">{{ _('Toggle navigation') }}</span>
+        </button>
+        <nav class="section navigation">
+          <a href="{{ h.url_for('home.index') }}"
+            ><img class="raseel-logo" src="/Raseel.png"
+          /></a>
+          <ul class="nav nav-pills">
+            {{ h.build_nav_main(('home.index', _('Home')), ('dataset.search',
+            _('Datasets')), ('organization.index', _('Organizations')),
+            ('group.index', _('Groups'))) }}
+          </ul>
+        </nav>
+      </hgroup>
       {% block header_site_search %}
       <form
         class="section site-search simple-input"
