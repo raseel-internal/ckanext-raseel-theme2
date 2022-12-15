@@ -93,24 +93,13 @@
         aria-label="expand or collapse"
         aria-expanded="false"
       >
-        <i class="fa-solid fa-bars"></i>
+        <a style="color: #46679f"> <i class="fa fa-bars"></i></a>
         <span class="sr-only">{{ _('Toggle navigation') }}</span>
       </button>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navigation-toggle">
       <hgroup class="navbar-left">
-        <button
-          data-target="#main-navigation-toggle"
-          data-toggle="collapse"
-          class="navbar-toggle collapsed"
-          type="button"
-          aria-label="expand or collapse"
-          aria-expanded="false"
-        >
-          <span class="fa fa-bars"></span>
-          <span class="sr-only">{{ _('Toggle navigation') }}</span>
-        </button>
         <nav class="section navigation">
           <a href="{{ h.url_for('home.index') }}"
             ><img class="raseel-logo" src="/Raseel.png"
