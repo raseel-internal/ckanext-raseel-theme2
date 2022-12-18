@@ -440,11 +440,6 @@ button.searchbar__button:hover {
   position: relative;
 }
 
-.homepage.layout-2 .row1 .col1 .key {
-  position: absolute;
-  width: auto;
-  text-align: left;
-}
 @media (min-width: 992px) {
   .homepage [role="main"] {
     padding: 20px 0;
@@ -460,25 +455,47 @@ button.searchbar__button:hover {
     right: 0;
   }
 }
-.key ul {
-  position: relative;
+.homepage.layout-2 .row1 .col1 .key {
+  width: auto;
+  text-align: left;
+}
+.homepage.layout-2 .row1 .col1 .key ul {
   float: left;
   direction: ltr;
   list-style: none;
   left: 18%;
   border-collapse: separate;
 }
-.key li {
+.homepage.layout-2 .row1 .col1 .key li {
   display: inline;
-  position: relative;
 }
-.key a {
+.homepage.layout-2 .row1 .col1 .key a {
   text-decoration: none;
   margin: 10px;
   float: left;
   color: #333333;
   text-align: center;
   white-space: nowrap;
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+  .homepage.layout-2 .row1 .col1 .key ul {
+    float: left;
+    direction: ltr;
+    list-style: none;
+    border-collapse: separate;
+    padding-inline-start: 0px;
+  }
+  .homepage.layout-2 .row1 .col1 .key li {
+    display: table-cell;
+  }
+  .homepage.layout-2 .row1 .col1 .key a {
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+    color: #333333;
+    text-align: center;
+  }
 }
 
 .percent {
