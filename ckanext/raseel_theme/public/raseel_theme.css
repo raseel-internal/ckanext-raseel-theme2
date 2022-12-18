@@ -460,13 +460,15 @@ button.searchbar__button:hover {
   text-align: left;
 }
 .homepage.layout-2 .row1 .col1 .key ul {
+  position: relative;
   float: left;
   direction: ltr;
-  list-style: none;
-  left: 18%;
+  display: inline;
+  left: 8%;
   border-collapse: separate;
 }
 .homepage.layout-2 .row1 .col1 .key li {
+  position: relative;
   display: inline;
 }
 .homepage.layout-2 .row1 .col1 .key a {
@@ -480,13 +482,14 @@ button.searchbar__button:hover {
 
 @media (min-width: 200px) and (max-width: 700px) {
   .homepage.layout-2 .row1 .col1 .key ul {
+    position: relative;
     float: left;
     direction: ltr;
-    list-style: none;
-    border-collapse: separate;
+    display: table-cell;
     padding-inline-start: 0px;
   }
   .homepage.layout-2 .row1 .col1 .key li {
+    position: relative;
     display: table-cell;
   }
   .homepage.layout-2 .row1 .col1 .key a {
