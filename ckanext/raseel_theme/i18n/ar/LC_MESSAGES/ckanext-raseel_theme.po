@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-13 10:34+0000\n"
+"POT-Creation-Date: 2022-12-18 10:37+0000\n"
 "PO-Revision-Date: 2022-12-12 08:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -80,23 +80,23 @@ msgstr "الحساب"
 msgid "Log in"
 msgstr "تسجيل دخول"
 
-#: ckanext/raseel_theme/templates/header.html:90
+#: ckanext/raseel_theme/templates/header.html:97
 msgid "Toggle navigation"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:106
+#: ckanext/raseel_theme/templates/header.html:108
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
-#: ckanext/raseel_theme/templates/header.html:107
+#: ckanext/raseel_theme/templates/header.html:109
 msgid "Datasets"
 msgstr "مجموعات البيانات"
 
-#: ckanext/raseel_theme/templates/header.html:107
+#: ckanext/raseel_theme/templates/header.html:109
 msgid "Organizations"
 msgstr "الناشرون"
 
-#: ckanext/raseel_theme/templates/header.html:108
+#: ckanext/raseel_theme/templates/header.html:110
 msgid "Groups"
 msgstr "التصنيفات"
 
@@ -203,11 +203,10 @@ msgid ""
 "Raseel Open data platform is the online portal for open data of Madinah "
 "Smart City. It allows organizations and entities to publish public data "
 "and let various kinds of users to access it."
-msgstr "منصة رسيل للبيانات المفتوحة هي البوابة الإلكترونية للبيانات المفتوحة لمنصة المدينة الذكية للمدينة المنورة ، فهي تمكن المؤسسات والكيانات بنشر بيانات العامة والسماح لكل فئات المستخدمين بالوصول إليها."
-
-#: ckanext/raseel_theme/templates/home/snippets/promoted.html:20
-msgid "This is a featured section"
 msgstr ""
+"منصة رسيل للبيانات المفتوحة هي البوابة الإلكترونية للبيانات المفتوحة "
+"لمنصة المدينة الذكية للمدينة المنورة ، فهي تمكن المؤسسات والكيانات بنشر "
+"بيانات العامة والسماح لكل فئات المستخدمين بالوصول إليها."
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:31
 msgid "Private"
@@ -296,22 +295,20 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/user/edit.html:3
 msgid "Users"
-msgstr ""
+msgstr "المستخدمون"
 
 #: ckanext/raseel_theme/templates/user/edit.html:9
 msgid "Manage"
-msgstr ""
+msgstr "إدارة"
 
 #: ckanext/raseel_theme/templates/user/edit.html:14
-#, fuzzy
-#| msgid "Account"
 msgid "Account Info"
 msgstr "الحساب"
 
 #: ckanext/raseel_theme/templates/user/login.html:2
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:43
 msgid "Login"
-msgstr ""
+msgstr "تسجيل دخول"
 
 #: ckanext/raseel_theme/templates/user/new.html:1
 msgid "Register"
@@ -379,12 +376,4 @@ msgstr "إنشاء حساب"
 #: ckanext/raseel_theme/templates/user/snippets/login_form.html:58
 msgid "Forgot your password?"
 msgstr "نسيت كلمة مرورك ؟"
-
-#~ msgid ""
-#~ "This is a nice introductory paragraph"
-#~ " about Raseel open data platform or"
-#~ " the site in general. We don't "
-#~ "have any copy to go here yet "
-#~ "but soon we will"
-#~ msgstr ""
 

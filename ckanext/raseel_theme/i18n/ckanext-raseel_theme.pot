@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-13 10:34+0000\n"
+"POT-Creation-Date: 2022-12-18 10:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,23 +73,23 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:90
+#: ckanext/raseel_theme/templates/header.html:97
 msgid "Toggle navigation"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:106
+#: ckanext/raseel_theme/templates/header.html:108
 msgid "Home"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:107
+#: ckanext/raseel_theme/templates/header.html:109
 msgid "Datasets"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:107
+#: ckanext/raseel_theme/templates/header.html:109
 msgid "Organizations"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:108
+#: ckanext/raseel_theme/templates/header.html:110
 msgid "Groups"
 msgstr ""
 
@@ -187,10 +187,6 @@ msgid ""
 "Raseel Open data platform is the online portal for open data of Madinah Smart"
 " City. It allows organizations and entities to publish public data and let "
 "various kinds of users to access it."
-msgstr ""
-
-#: ckanext/raseel_theme/templates/home/snippets/promoted.html:20
-msgid "This is a featured section"
 msgstr ""
 
 #: ckanext/raseel_theme/templates/home/snippets/raseel_package_item.html:31
