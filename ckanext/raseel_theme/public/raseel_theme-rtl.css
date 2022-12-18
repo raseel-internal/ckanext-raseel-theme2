@@ -445,7 +445,6 @@ button.searchbar__button:hover {
 }
 
 .homepage.layout-2 .row1 .col1 .key {
-  position: absolute;
   width: auto;
   text-align: left;
 }
@@ -464,25 +463,42 @@ button.searchbar__button:hover {
     right: 0;
   }
 }
-.key ul {
-  position: relative;
+.homepage.layout-2 .row1 .col1 .key ul {
   float: right;
   direction: rtl;
   list-style: none;
   right: 15%;
   border-collapse: separate;
 }
-.key li {
+.homepage.layout-2 .row1 .col1 .key li {
   display: inline-block;
-  position: relative;
 }
-.key a {
+.homepage.layout-2 .row1 .col1 .key a {
   text-decoration: none;
   margin: 10px;
   float: right;
   color: #333333;
   text-align: center;
   white-space: nowrap;
+}
+@media (min-width: 200px) and (max-width: 700px) {
+  .homepage.layout-2 .row1 .col1 .key ul {
+    float: right;
+    direction: rtl;
+    list-style: none;
+    border-collapse: separate;
+    padding-inline-start: 0px;
+  }
+  .homepage.layout-2 .row1 .col1 .key li {
+    display: table-cell;
+  }
+  .homepage.layout-2 .row1 .col1 .keya {
+    text-decoration: none;
+    margin: 10px;
+    float: left;
+    color: #333333;
+    text-align: center;
+  }
 }
 
 .percent {
