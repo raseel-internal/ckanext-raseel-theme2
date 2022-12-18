@@ -464,14 +464,15 @@ button.searchbar__button:hover {
   }
 }
 .homepage.layout-2 .row1 .col1 .key ul {
+  position: relative;
   float: right;
   direction: rtl;
-  list-style: none;
-  right: 15%;
-  border-collapse: separate;
+  display: inline;
+  right: 5%;
 }
 .homepage.layout-2 .row1 .col1 .key li {
-  display: inline-block;
+  position: relative;
+  display: inline;
 }
 .homepage.layout-2 .row1 .col1 .key a {
   text-decoration: none;
@@ -485,14 +486,13 @@ button.searchbar__button:hover {
   .homepage.layout-2 .row1 .col1 .key ul {
     float: right;
     direction: rtl;
-    list-style: none;
-    border-collapse: separate;
+    display: table-cell;
     padding-inline-start: 0px;
   }
   .homepage.layout-2 .row1 .col1 .key li {
     display: table-cell;
   }
-  .homepage.layout-2 .row1 .col1 .keya {
+  .homepage.layout-2 .row1 .col1 .key a {
     text-decoration: none;
     margin: 10px;
     float: left;
