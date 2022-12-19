@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-18 10:37+0000\n"
+"POT-Creation-Date: 2022-12-18 15:49+0000\n"
 "PO-Revision-Date: 2022-12-12 08:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -93,6 +93,9 @@ msgid "Datasets"
 msgstr "مجموعات البيانات"
 
 #: ckanext/raseel_theme/templates/header.html:109
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:3
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:6
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:18
 msgid "Organizations"
 msgstr "الناشرون"
 
@@ -278,6 +281,30 @@ msgstr ""
 "للمستخدمين أدوار مختلفة داخل المنظمة ، اعتمادًا على مستوى تفويضهم للإنشاء"
 " والتعديل والنشر."
 
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:13
+msgid "Add Organization"
+msgstr "إضافة ناشر"
+
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:20
+msgid "Search organizations..."
+msgstr "البحث عن الناشرون..."
+
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:20
+msgid "Name Ascending"
+msgstr "الاسم تصاعديا"
+
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:20
+msgid "Name Descending"
+msgstr "الاسم تنازليًا"
+
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:29
+msgid "There are currently no organizations for this site"
+msgstr "لا يوجد حاليا ناشرين لهذا الموقع"
+
+#: ckanext/raseel_theme/templates/organization/snippets/index.html:31
+msgid "How about creating one?"
+msgstr ""
+
 #: ckanext/raseel_theme/templates/package/base_form_page.html:15
 msgid "What are datasets?"
 msgstr "ما هي مجموعات البيانات؟"
@@ -292,6 +319,90 @@ msgstr ""
 "البيانات (مثل الملفات) ، جنبًا إلى جنب مع الوصف والمعلومات الأخرى ، على "
 "عنوان URL ثابت. مجموعات البيانات هي ما يراه المستخدمون عند البحث عن "
 "البيانات."
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:15
+msgid "{number} dataset found for \"{query}\""
+msgid_plural "{number} datasets found for \"{query}\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:16
+msgid "No datasets found for \"{query}\""
+msgstr ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:17
+msgid "{number} dataset found"
+msgid_plural "{number} datasets found"
+msgstr[0] "{num} مجموعات البيانات"
+msgstr[1] "{num} مجموعات البيانات"
+msgstr[2] "{num} مجموعات البيانات"
+msgstr[3] "{num} مجموعات البيانات"
+msgstr[4] "{num} مجموعات البيانات"
+msgstr[5] "{num} مجموعات البيانات"
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:18
+msgid "No datasets found"
+msgstr "مجموعات البيانات"
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:21
+msgid "{number} group found for \"{query}\""
+msgid_plural "{number} groups found for \"{query}\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:22
+msgid "No groups found for \"{query}\""
+msgstr ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:23
+msgid "{number} group found"
+msgid_plural "{number} groups found"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:24
+msgid "No groups found"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:27
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "تم العثور على {number} ناشر للاستعلام \"{query}\""
+msgstr[1] "تم العثور على {number} ناشر للاستعلام \"{query}\""
+msgstr[2] "تم العثور على {number} ناشرين للاستعلام \"{query}\""
+msgstr[3] "تم العثور على {number} ناشرين للاستعلام \"{query}\""
+msgstr[4] "تم العثور على {number} ناشرين للاستعلام \"{query}\""
+msgstr[5] "تم العثور على {number} ناشرين للاستعلام \"{query}\""
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:28
+msgid "No organizations found for \"{query}\""
+msgstr " \"{query}\" لم يتم العثور على ناشرين ل"
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:29
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "الناشر"
+msgstr[1] "ناشر العثور على"
+msgstr[2] "ناشرين {number} العثور على"
+msgstr[3] "ناشرين {number} العثور على"
+msgstr[4] "ناشرين {number} العثور على"
+msgstr[5] "ناشرين {number} العثور على"
+
+#: ckanext/raseel_theme/templates/snippets/search_result_text.html:30
+msgid "No organizations found"
+msgstr "الناشرون"
 
 #: ckanext/raseel_theme/templates/user/edit.html:3
 msgid "Users"
