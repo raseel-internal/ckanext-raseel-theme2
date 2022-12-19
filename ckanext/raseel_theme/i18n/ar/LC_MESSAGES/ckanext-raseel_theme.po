@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-18 15:49+0000\n"
+"POT-Creation-Date: 2022-12-19 07:43+0000\n"
 "PO-Revision-Date: 2022-12-12 08:25+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -393,12 +393,12 @@ msgstr " \"{query}\" لم يتم العثور على ناشرين ل"
 #: ckanext/raseel_theme/templates/snippets/search_result_text.html:29
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
-msgstr[0] "الناشر"
-msgstr[1] "ناشر العثور على"
-msgstr[2] "ناشرين {number} العثور على"
-msgstr[3] "ناشرين {number} العثور على"
-msgstr[4] "ناشرين {number} العثور على"
-msgstr[5] "ناشرين {number} العثور على"
+msgstr[0] "تم العثور على {number} ناشر"
+msgstr[1] "تم العثور على {number} ناشر"
+msgstr[2] "تم العثور على {number} ناشرين"
+msgstr[3] "تم العثور على {number} ناشرين"
+msgstr[4] "تم العثور على {number} ناشرين"
+msgstr[5] "تم العثور على {number} ناشرين"
 
 #: ckanext/raseel_theme/templates/snippets/search_result_text.html:30
 msgid "No organizations found"
@@ -432,6 +432,28 @@ msgstr "تسجيل حساب"
 #: ckanext/raseel_theme/templates/user/new.html:11
 msgid "Register for an Account"
 msgstr "تسجيل حساب"
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:13
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:18
+msgid "Username"
+msgstr  "اسم المستخدم"
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:22
+msgid "Fullname"
+msgstr "الإسم الكامل"
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:29
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:38
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:28
+msgid "Password"
+msgstr "كلمة السر"
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:46
+msgid "Confirm"
+msgstr "التأكيد"
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:58
 msgid "Profile picture"

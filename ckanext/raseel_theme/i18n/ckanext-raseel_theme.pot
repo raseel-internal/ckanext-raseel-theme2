@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-18 15:49+0000\n"
+"POT-Creation-Date: 2022-12-19 07:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,6 +381,28 @@ msgstr ""
 
 #: ckanext/raseel_theme/templates/user/new.html:11
 msgid "Register for an Account"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:13
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:18
+msgid "Username"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:22
+msgid "Fullname"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:29
+msgid "Email"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:38
+#: ckanext/raseel_theme/templates/user/snippets/login_form.html:28
+msgid "Password"
+msgstr ""
+
+#: ckanext/raseel_theme/templates/user/new_user_form.html:46
+msgid "Confirm"
 msgstr ""
 
 #: ckanext/raseel_theme/templates/user/new_user_form.html:58
