@@ -1,8 +1,12 @@
 <!-- //LANGUAGE SWITCHER -->
 {% set current_lang = request.environ.CKAN_LANG %} {% set current_url =
-request.environ.CKAN_CURRENT_URL %} {% if current_lang == "en" %}
-<a class="dropdown-item" href="/ar" title="Arabic">العربية</a>
-{% else %}
-<a class="dropdown-item" href="/en" title="English">English</a>
-
-{% endif %}
+    request.environ.CKAN_CURRENT_URL %} {% if current_lang == "en" %}
+    <a class="dropdown-item" href="/ar" title="Arabic">
+      العربية <i class="fa fa-globe" aria-hidden="true"></i></a
+    >
+    {% else %}
+    <a class="dropdown-item" href="/en" title="English"><i class="fa fa-globe" aria-hidden="true"></i> English</i
+    ></a>
+    
+    {% endif %}
+    
