@@ -719,9 +719,10 @@ div.follow_button > a:hover {
 .screen-1 .email input {
   outline: none;
   border: none;
+  width: 100%;
 }
 .screen-1 .email input::placeholder {
-  color: #000;
+  color: #454545;
   font-size: 0.9em;
 }
 .screen-1 .email ion-icon {
@@ -740,9 +741,10 @@ div.follow_button > a:hover {
 .screen-1 .password input {
   outline: none;
   border: none;
+  width: 100%;
 }
 .screen-1 .password input::placeholder {
-  color: #000;
+  color: #454545;
   font-size: 0.9em;
 }
 .screen-1 .password ion-icon {
