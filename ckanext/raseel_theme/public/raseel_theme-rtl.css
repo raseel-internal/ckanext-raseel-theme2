@@ -699,9 +699,9 @@ div.follow_button > a:hover {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 1.5rem;
-  max-width: 100vw;
+  max-width: 100%;
   width: 80ch;
   padding-left: 1rem;
   padding-right: 1rem;
