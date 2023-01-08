@@ -460,32 +460,17 @@ button.searchbar__button:hover {
 .homepage.layout-2 .row1 .col1 .chart {
   position: relative;
 }
-
-.homepage.layout-2 .row1 .col1 .key {
+.homepage.layout-2 .row1 .col1 .chart .key {
   width: auto;
-  text-align: left;
+  text-align: right;
 }
-@media (min-width: 992px) {
-  .homepage [role="main"] {
-    padding: 20px 0;
-  }
-  .homepage.layout-2 .row1 .col {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  .homepage.layout-2 .row1 .col2 .module-search {
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-}
-.homepage.layout-2 .row1 .col1 .key ul {
+.homepage.layout-2 .row1 .col1 .chart .key ul {
   position: relative;
   float: right;
   direction: rtl;
   display: inline;
-  right: 5%;
+  right: 8%;
+  border-collapse: separate;
 }
 .homepage.layout-2 .row1 .col1 .key li {
   position: relative;
@@ -499,20 +484,22 @@ button.searchbar__button:hover {
   text-align: center;
   white-space: nowrap;
 }
+
 @media (min-width: 200px) and (max-width: 700px) {
-  .homepage.layout-2 .row1 .col1 .key ul {
-    float: right;
+  .homepage.layout-2 .row1 .col1 .chart .key ul {
+    position: relative;
     direction: rtl;
-    display: table-cell;
     padding-inline-start: 0px;
+    display: inline;
+    right: 0%;
   }
   .homepage.layout-2 .row1 .col1 .key li {
-    display: table-cell;
+    display: inline;
   }
   .homepage.layout-2 .row1 .col1 .key a {
     text-decoration: none;
-    margin: 10px;
-    float: left;
+    margin: 0px;
+    float: right;
     color: #333333;
     text-align: center;
   }

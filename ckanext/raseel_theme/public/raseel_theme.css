@@ -471,11 +471,11 @@ button.searchbar__button:hover {
     right: 0;
   }
 }
-.homepage.layout-2 .row1 .col1 .key {
+.homepage.layout-2 .row1 .col1 .chart .key {
   width: auto;
   text-align: left;
 }
-.homepage.layout-2 .row1 .col1 .key ul {
+.homepage.layout-2 .row1 .col1 .chart .key ul {
   position: relative;
   float: left;
   direction: ltr;
@@ -497,20 +497,19 @@ button.searchbar__button:hover {
 }
 
 @media (min-width: 200px) and (max-width: 700px) {
-  .homepage.layout-2 .row1 .col1 .key ul {
+  .homepage.layout-2 .row1 .col1 .chart .key ul {
     position: relative;
-    float: left;
     direction: ltr;
-    display: table-cell;
     padding-inline-start: 0px;
+    display: inline;
+    left: 8%;
   }
   .homepage.layout-2 .row1 .col1 .key li {
-    position: relative;
-    display: table-cell;
+    display: inline;
   }
   .homepage.layout-2 .row1 .col1 .key a {
     text-decoration: none;
-    margin: 10px;
+    margin: 2px;
     float: left;
     color: #333333;
     text-align: center;
