@@ -362,9 +362,9 @@ ul.language-switcher ul.dropdown-menu {
 }
 
 #particles-js {
-  height: 340px;
-  background-image: url("/Madinah.JPG");
-  background-size: contain;
+  height: 400px;
+  background-image: url("/Madinah.jpg");
+  background-size: cover;
 }
 
 input.searchbar__input[type="text"] {
