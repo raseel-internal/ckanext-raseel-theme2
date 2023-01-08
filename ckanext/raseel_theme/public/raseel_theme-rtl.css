@@ -362,8 +362,13 @@ ul.language-switcher ul.dropdown-menu {
 }
 
 #particles-js {
-  height: 400px;
+  height: 3500px;
   background-image: url("/Madinah.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
