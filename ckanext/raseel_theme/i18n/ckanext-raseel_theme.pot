@@ -1,15 +1,15 @@
 # Translations template for ckanext-raseel-theme2.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the ckanext-raseel-theme2
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-raseel-theme2 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-19 07:43+0000\n"
+"POT-Creation-Date: 2023-01-09 07:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,8 @@ msgstr ""
 msgid "Contact Us"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/footer.html:30
-msgid "Raseel | Madinah Smart City Platform"
+#: ckanext/raseel_theme/templates/footer.html:31
+msgid "copyright © 2023, Raseel. All Rights Reserved."
 msgstr ""
 
 #: ckanext/raseel_theme/templates/header.html:16
@@ -73,43 +73,43 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:97
+#: ckanext/raseel_theme/templates/header.html:92
 msgid "Toggle navigation"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:108
+#: ckanext/raseel_theme/templates/header.html:103
 msgid "Home"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:109
+#: ckanext/raseel_theme/templates/header.html:104
 msgid "Datasets"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:109
+#: ckanext/raseel_theme/templates/header.html:104
 #: ckanext/raseel_theme/templates/organization/snippets/index.html:3
 #: ckanext/raseel_theme/templates/organization/snippets/index.html:6
 #: ckanext/raseel_theme/templates/organization/snippets/index.html:18
 msgid "Organizations"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:110
+#: ckanext/raseel_theme/templates/header.html:105
 msgid "Groups"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:122
+#: ckanext/raseel_theme/templates/header.html:117
 msgid "Search Datasets"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:130
+#: ckanext/raseel_theme/templates/header.html:125
 #: ckanext/raseel_theme/templates/home/snippets/search.html:24
 msgid "Search"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:131
+#: ckanext/raseel_theme/templates/header.html:126
 msgid "Search datasets"
 msgstr ""
 
-#: ckanext/raseel_theme/templates/header.html:136
+#: ckanext/raseel_theme/templates/header.html:131
 msgid "Submit"
 msgstr ""
 
