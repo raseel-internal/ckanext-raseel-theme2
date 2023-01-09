@@ -43,18 +43,6 @@ body > .main {
 .font-montserrat {
   font-family: "Montserrat", sans-serif !important;
 }
-.font-lato {
-  font-family: "Lato", sans-serif !important;
-}
-.font-source-sans-pro {
-  font-family: "Source Sans Pro", sans-serif !important;
-}
-.font-nunito {
-  font-family: "Nunito Sans", sans-serif !important;
-}
-.font-work-sans {
-  font-family: "Work Sans", sans-serif !important;
-}
 
 b,
 strong {
@@ -629,12 +617,7 @@ div.follow_button > a:hover {
   padding: 2px 7px;
   line-height: 18px;
 }
-
-.btn-danger {
-  color: #fff;
-  background-color: #0f9cd9;
-  border-color: #0f9cd9;
-}
+/* Organization & groups card classes  */
 
 .card {
   --card-gradient: rgba(0, 0, 0, 0.8);
@@ -709,6 +692,8 @@ div.follow_button > a:hover {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+/* Raseel Sign in Sign up Forms classes */
 
 .screen-1 {
   padding: 2em;
