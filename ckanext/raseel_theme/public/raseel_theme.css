@@ -471,11 +471,11 @@ button.searchbar__button:hover {
     right: 0;
   }
 }
-.homepage.layout-2 .row1 .col1 .chart .key {
+.homepage.layout-2 .row1 .col1 .key {
   width: auto;
   text-align: left;
 }
-.homepage.layout-2 .row1 .col1 .chart .key ul {
+.homepage.layout-2 .row1 .col1 .key ul {
   position: relative;
   float: left;
   direction: ltr;
@@ -497,7 +497,7 @@ button.searchbar__button:hover {
 }
 
 @media (min-width: 200px) and (max-width: 700px) {
-  .homepage.layout-2 .row1 .col1 .chart .key ul {
+  .homepage.layout-2 .row1 .col1 .key ul {
     position: relative;
     direction: ltr;
     padding-inline-start: 0px;

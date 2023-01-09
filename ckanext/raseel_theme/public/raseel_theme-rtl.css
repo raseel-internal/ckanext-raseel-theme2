@@ -464,7 +464,7 @@ button.searchbar__button:hover {
   width: auto;
   text-align: right;
 }
-.homepage.layout-2 .row1 .col1 .chart .key ul {
+.homepage.layout-2 .row1 .col1 .key ul {
   position: relative;
   float: right;
   direction: rtl;
@@ -486,7 +486,7 @@ button.searchbar__button:hover {
 }
 
 @media (min-width: 200px) and (max-width: 700px) {
-  .homepage.layout-2 .row1 .col1 .chart .key ul {
+  .homepage.layout-2 .row1 .col1 .key ul {
     position: relative;
     direction: rtl;
     padding-inline-start: 0px;
