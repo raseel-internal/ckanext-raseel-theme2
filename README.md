@@ -13,7 +13,7 @@
 
 # Requirements
 
-This extension is compatible with CKAN 2.7 and higher.
+This extension is compatible with CKAN 2.8 and higher.
 
 # Installation
 
@@ -35,14 +35,6 @@ To install ckanext-raseel-theme:
     Ubuntu:
 
         sudo service apache2 reload
-
-# Config Settings
-
-The following configuration variables must be set:
-
-- `ckanext.raseel_theme.plugin.raseel_url` (eg <https://www.raseel-preprod.eu>)
-- `ckanext.raseel_theme.plugin.raseel_portal_url` (eg <https://portal.raseel-preprod.eu>)
-- `ckanext.raseel_theme.plugin.raseel_ckan_app_id` (CKAN app UUID in raseel portal)
 
 # Development Installation
 
