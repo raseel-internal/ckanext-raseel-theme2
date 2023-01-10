@@ -606,6 +606,11 @@ div.follow_button > a:hover {
   padding: 2px 7px;
   line-height: 18px;
 }
+
+.empty {
+  color: #6e6e6e;
+  font-style: normal;
+}
 /* Organization & groups card classes  */
 
 .card {
